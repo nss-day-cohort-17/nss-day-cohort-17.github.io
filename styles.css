@@ -1,0 +1,20 @@
+.mainContainer {
+  position: absolute;
+  z-index: -2;
+}
+
+.searchBarLogo {
+  padding-left: 5em;
+}
+
+.skyImage {
+  position: absolute;
+  z-index: -1;
+
+}
+
+.skyline {
+  display: inline;
+  position: relative;
+  z-index: 1;
+}
