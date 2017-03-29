@@ -1,15 +1,39 @@
+/*********************
+ ** Student Cards
+ *********************/
+
 .student-container {
-	max-height: 500px;
-	max-width: 333px;
+	max-width: 300px;
+  padding: 10px;
 }
 
-.student-card {
+.student-name-container {
+  background-color: white;
+  padding: 10px;
+}
+
+.student-name {
   width: 100%;
+  color: orange;
+  margin-bottom: 5px;
 }
 
-.student-img {
-	width: 100%;
+.icons-container {
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
 }
+
+.icons-container img {
+  min-width: 35px;
+  min-height: 35px;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/*********************
+ ** Boilerplate styles
+ *********************/
 
 /*.mainContainer {
   position: absolute;
