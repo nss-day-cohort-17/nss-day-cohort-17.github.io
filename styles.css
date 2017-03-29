@@ -1,6 +1,14 @@
-.student-img {
+.student-container {
 	max-height: 500px;
 	max-width: 333px;
+}
+
+.student-card {
+  width: 100%;
+}
+
+.student-img {
+	width: 100%;
 }
 
 /*.mainContainer {
