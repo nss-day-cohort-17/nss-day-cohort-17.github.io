@@ -35,6 +35,12 @@ app.factory('sunriseSunsetFactory', function($http, $scope, formatDateFactory){
 })
 
 
-// app.factory('parseTSADataFactory' function(sunriseSunset, $scope) {
-
-// })
+app.factory('parseTSADataFactory' function(sunriseSunsetFactory, $scope) {
+  return {
+    sunriseSunsetFactory.getSunData()
+    .then(function(data) {
+      let sunrise = data.Sunrise
+      let sunset = data.Sunset
+    })
+  }
+})
