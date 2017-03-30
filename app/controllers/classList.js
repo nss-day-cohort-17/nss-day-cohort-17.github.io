@@ -1,3 +1,5 @@
-app.controller('classListCtrl', function($scope){
 
+app.controller('classListCtrl', function($scope, sunriseSunsetFactory, getDateObjFactory){
+  getDateObjFactory()
+  sunriseSunsetFactory()
 })
