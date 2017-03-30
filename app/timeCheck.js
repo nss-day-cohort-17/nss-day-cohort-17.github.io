@@ -1,7 +1,8 @@
 `use strict`
 
 app.factory('getDateObjFactory', function($scope) {
-  $scope.dateTime = new Date()
+  console.log('running getDateObjFactory')
+  return new Date()
 })
 
 app.factory('formatDateFactory', function($scope) {
