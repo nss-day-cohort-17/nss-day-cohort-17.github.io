@@ -3,7 +3,7 @@ var app = angular.module("classList", ['ngRoute']);
 console.log('in configAng.js')
 
 //configure "app" with routeProvider
-app.config(($routeProvider)=> {
+app.config(($routeProvider, $locationProvider)=> {
   $routeProvider
   //when at the base page
   .when("/", {
