@@ -1,9 +1,6 @@
 
-app.controller('classListCtrl', function($scope, sunriseSunsetFactory, getDateObjFactory){
+app.controller('classListCtrl', function($scope, parseTSADataFactory, getDateObjFactory){
   console.log('in classListCtrl')
   $scope.dateTime = getDateObjFactory()
-  sunriseSunsetFactory.getSunData()
-  .then((data) => {
-    $scope.sunData = data
-  })
+  $scope.parseTSADataFactory.parseData()
 })
