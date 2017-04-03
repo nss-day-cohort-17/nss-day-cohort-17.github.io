@@ -31,6 +31,10 @@
   max-height: 50px;
 }
 
+.background-img {
+	background-image: image(src="img/c17_backdrop.svg" alt="gradient-sunburst");
+}
+
 /*********************
  ** Boilerplate styles
  *********************/
