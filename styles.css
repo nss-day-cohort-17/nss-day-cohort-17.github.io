@@ -32,7 +32,8 @@
 }
 
 .background-img {
-	background-image: image(src="img/c17_backdrop.svg" alt="gradient-sunburst");
+	position: absolute;
+	width: 100%;
 }
 
 /*********************
