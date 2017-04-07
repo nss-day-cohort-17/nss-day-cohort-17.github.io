@@ -31,6 +31,11 @@
   max-height: 50px;
 }
 
+.background-img {
+	position: absolute;
+	width: 100%;
+}
+
 /*********************
  ** Boilerplate styles
  *********************/
