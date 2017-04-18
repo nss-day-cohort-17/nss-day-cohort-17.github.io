@@ -42,11 +42,18 @@
  ** Instructor Cards
  *********************/
 
+.instructor-container {
+  max-width: 300px;
+}
 
+
+.card-image {
+  cursor: pointer;
+}
 
 .instructor-list {
 /*  background-color: green;*/
-  position: relative;
+/*  position: relative;*/
 }
 
 .instructor-card {
@@ -55,11 +62,14 @@
 }
 
 .instructor-name-container {
-  background-color: transparent;
+  background-color: white;
+  padding: 10px;
 }
 
 .instructor-name {
+  width: 100%;
   color: orange;
+  margin-bottom: 5px
 }
 
 
