@@ -1,11 +1,11 @@
 `use strict`
 
-app.factory('getDateObjFactory', function($scope) {
+app.factory('getDateObjFactory', function() {
   console.log('running getDateObjFactory')
   return new Date()
 })
 
-app.factory('formatDateFactory', function($scope) {
+app.factory('formatDateFactory', function() {
   return {
     formatDate: () => {
       let year = $scope.dateTime.getFullYear();
@@ -20,7 +20,7 @@ app.factory('formatDateFactory', function($scope) {
   }
 })
 
-app.factory('sunriseSunsetFactory', function($http, $scope, formatDateFactory){
+app.factory('sunriseSunsetFactory', function($http, formatDateFactory){
   return {
     getSunData: () => {
       let date = formatDate()
@@ -35,7 +35,7 @@ app.factory('sunriseSunsetFactory', function($http, $scope, formatDateFactory){
 })
 
 
-app.factory('parseTSADataFactory', function(sunriseSunsetFactory, $scope) {
+app.factory('parseTSADataFactory', function(sunriseSunsetFactory) {
   return {
     parseData: () => {
       return sunriseSunsetFactory.getSunData()
