@@ -32,6 +32,10 @@ removing materialize waves effects */
   margin-bottom: 0px !important;
 }
 
+.student-list-div-wrapper {
+  margin-left: 12%;
+}
+
 .bio-container {
   opacity: 0.8;
 }
