@@ -1,5 +1,5 @@
 //assign the angular module to the var app
-var app = angular.module("classList", ['ngRoute']);
+var app = angular.module("classList", ['ngRoute','720kb.tooltips']);
 
 //configure "app" with routeProvider
 app.config(($routeProvider)=> {
