@@ -2,33 +2,43 @@
  ** Student Cards
  *********************/
 
+/* Max width for student cards so they don't get huge on big screens */
 .student-container {
 	max-width: 300px;
-  padding: 10px;
+}
+
+/* Make the image a clickable thing even after
+removing materialize waves effects */
+.card-image {
+  cursor: pointer;
 }
 
 .student-name-container {
-  background-color: white;
-  padding: 10px;
+  padding: 18px !important;
 }
 
+/* Adjust to better orange color if needed */
+/* Override materialize margins */
 .student-name {
-  width: 100%;
   color: orange;
-  margin-bottom: 5px;
+  margin-bottom: 0px !important;
 }
 
+.bio-container {
+  opacity: 0.8;
+}
+
+/* Make three equally-spaced icons under students */
 .icons-container {
   height: 75px;
   display: flex;
   justify-content: space-around;
 }
 
+/* max width / height for icons below student cards */
 .icons-container img {
-  min-width: 35px;
-  min-height: 35px;
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 35px;
+  max-height: 35px;
 }
 
 /*********************
