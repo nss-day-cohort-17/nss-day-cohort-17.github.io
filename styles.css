@@ -1,3 +1,11 @@
+body {
+  background: url(/img/c17_backdrop.svg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /*********************
  ** Student Cards
  *********************/
@@ -41,6 +49,11 @@ removing materialize waves effects */
   max-height: 35px;
 }
 
+.background-img {
+	position: absolute;
+	width: 100%;
+}
+
 /*********************
  ** Boilerplate styles
  *********************/
@@ -48,21 +61,53 @@ removing materialize waves effects */
 /*.mainContainer {
   position: absolute;
   z-index: -2;
-}
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#db2b2b+0,ffd749+100 */
+  /*background: #db2b2b; /* Old browsers */*/
+  /*background: -moz-radial-gradient(center, ellipse cover, #db2b2b 0%, #ffd749 100%); /* FF3.6-15 */*/
+  /*background: -webkit-radial-gradient(center, ellipse cover, #db2b2b 0%,#ffd749 100%); /* Chrome10-25,Safari5.1-6 */*/
+  /*background: radial-gradient(ellipse at center, #db2b2b 0%,#ffd749 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+  /*}*/
 
 .searchBarLogo {
   padding-left: 5em;
 }
 
-.skyImage {
-  position: absolute;
-  z-index: -1;
-
-}
 
 .skyline {
   display: inline;
   position: relative;
   z-index: 1;
 }
-*/
+
+.skyline__container {
+  max-width: 80%;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.skyline__container img {
+  max-width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.gray {
+  background-color: #333333;
+  color: white;
+  max-width: 80%;
+  padding: 5%;
+  position: relative;
+  z-index: 1;
+}
+.skyImage {
+  position: absolute;
+  z-index: -1;
+}

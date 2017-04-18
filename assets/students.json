@@ -1,0 +1,198 @@
+{
+	"students": [
+
+		{
+			"name" : "James West",
+			"github" : "https://github.com/j-West",
+			"linkedin" : "https://www.linkedin.com/in/j-west/",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Peter Garrido",
+			"github" : "https://github.com/pgarrido57",
+			"linkedin" : "https://www.linkedin.com/in/peter-garrido-11686b90",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Billy Connolly",
+			"github" : "https://github.com/sirwilliamiv",
+			"linkedin" : "https://www.linkedin.com/in/billyconnolly/",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Jared Fuller",
+			"github" : "https://github.com/jaredshane",
+			"linkedin" : "https://www.linkedin.com/in/jaredshane/",
+			"portfolio" : "https://jaredshane.github.io/",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Michael Watson",
+			"github" : "https://github.com/mwatson615",
+			"linkedin" : "www.linkedin.com/in/michael-watson615",
+			"portfolio" : "https://mwatson615.github.io/",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Ashley Irwin",
+			"github" : "https://github.com/ashleyirwin3",
+			"linkedin" : "https://www.linkedin.com/in/ashley-irwin-578699110/",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Ben Conner",
+			"github" : "github.com/benConner",
+			"linkedin" : "linkedin.com/in/benjamin-conner",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Terrill Farmer",
+			"github" : "https://github.com/T-Farmer",
+			"linkedin" : "https://www.linkedin.com/in/terrill-farmer-52698013a",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Robert Tortorelli",
+			"github" : "https://github.com/TSturtledove",
+			"linkedin" : "https://www.linkedin.com/in/robert-tortorelli-tsturtledove/",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Krishnapriya Sivasubramanian",
+			"github" : "https://github.com/priyakamesh",
+			"linkedin" : "https://www.linkedin.com/in/krishnapriya-sivasubramanian-95bb7b4a/",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Luke Schuyler",
+			"github" : "https://github.com/lukeschuyler",
+			"linkedin" : "https://www.linkedin.com/in/luke-schuyler-55974388/",
+			"portfolio" : "https://lukeschuyler.github.io/#/",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Michael Tambornino",
+			"github" : "github.com/m-tambo",
+			"linkedin" : "linkedin.com/in/m-tambo/",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Lucas McLaughlin",
+			"github" : "https://github.com/LucasMcL",
+			"linkedin" : "https://www.linkedin.com/in/lucasdmcl/",
+			"portfolio" : "https://lucasmcl.github.io/",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Jufe Brown-Tsai",
+			"github" : "https://github.com/Jufebrown",
+			"linkedin" : "https://www.linkedin.com/in/jufe-brown-tsai-3a2701126/",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Joel Legg",
+			"github" : "github.com/joellegg",
+			"linkedin" : "linkedin.com/in/joellegg",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "",
+			"github" : "",
+			"linkedin" : "",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "",
+			"github" : "",
+			"linkedin" : "",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "",
+			"github" : "",
+			"linkedin" : "",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "",
+			"github" : "",
+			"linkedin" : "",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "",
+			"github" : "",
+			"linkedin" : "",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "",
+			"github" : "",
+			"linkedin" : "",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "",
+			"github" : "",
+			"linkedin" : "",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "",
+			"github" : "",
+			"linkedin" : "",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "",
+			"github" : "",
+			"linkedin" : "",
+			"portfolio" : "",
+			"proimg" : "",
+			"sillyimg" : ""
+		}
+	]
+
+}
