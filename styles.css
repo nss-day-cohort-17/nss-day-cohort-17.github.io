@@ -34,7 +34,6 @@ removing materialize waves effects */
 
 .student-list-div-wrapper {
   margin-left: 8%;
-
 }
 
 .bio-container {
@@ -108,10 +107,12 @@ removing materialize waves effects */
   background-color: #333333;
   color: white;
   max-width: 90%;
-  padding: 5%;
+  padding: 3%;
   position: relative;
   z-index: 1;
+  display: flex;
 }
+
 .skyImage {
   position: absolute;
   z-index: -1;

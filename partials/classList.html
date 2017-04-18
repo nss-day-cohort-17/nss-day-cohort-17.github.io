@@ -22,37 +22,38 @@
     </div>
     <!-- <div class="gray"> -->
       <!-- <div class="middleContainer container grey darken-4"> -->
-        <!-- <div class="row student-list">  -->
 
-    <div class="gray col xs6 xl4">
-      <div ng-repeat="student in students | filter: studentSearch" class="student-container">
-        <div class="card">
-          <div class="card-image">
-            <img class="activator" src="img/example-1.jpg">
+    <div class="gray">
+      <div class="row student-list"> 
+        <div ng-repeat="student in students | filter: studentSearch" class="col xs6 xl4 student-container">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="img/example-1.jpg">
+            </div>
+            <div class="card-content student-name-container">
+              <span class="center-align student-name card-title">{{student.name}}</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</p>
+            </div>
           </div>
-          <div class="card-content student-name-container">
-            <span class="center-align student-name card-title">{{student.name}}</span>
+          <div class="icons-container">
+            <a href="{{student.linkedin}}">
+              <img class="linked-in-icon left" src="img/linkedin-icon-white.png">
+            </a>
+            <a ng-show="{{student.portfolio}}" href="{{student.portfolio}}">
+              <img class="website-icon" src="img/website-icon-white.png">
+            </a>
+            <a href="{{student.github}}">
+              <img class="github-icon right" src="img/github-icon-white.png">
+            </a>
           </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
-          </div>
-        </div>
-        <div class="icons-container">
-          <a href="{{student.linkedin}}">
-            <img class="linked-in-icon left" src="img/linkedin-icon-white.png">
-          </a>
-          <a ng-show="{{student.portfolio}}" href="{{student.portfolio}}">
-            <img class="website-icon" src="img/website-icon-white.png">
-          </a>
-          <a href="{{student.github}}">
-            <img class="github-icon right" src="img/github-icon-white.png">
-          </a>
-        </div>
-      </div> <!-- end .student-container -->
+        </div> <!-- end .student-container -->
+      </div>
     </div> <!-- end .col -->
   </div> <!-- end .student-list -->
 
