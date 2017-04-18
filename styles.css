@@ -36,6 +36,39 @@
 	width: 100%;
 }
 
+
+
+/*********************
+ ** Instructor Cards
+ *********************/
+
+
+
+.instructor-list {
+/*  background-color: green;*/
+  position: relative;
+}
+
+.instructor-card {
+  max-width: 280px;
+  margin: 10px;
+}
+
+.instructor-name-container {
+  background-color: transparent;
+}
+
+.instructor-name {
+  color: orange;
+}
+
+
+.instructor__image {
+  max-width: 300px;
+  height: auto;
+}
+
+
 /*********************
  ** Boilerplate styles
  *********************/
