@@ -33,7 +33,8 @@ removing materialize waves effects */
 }
 
 .student-list-div-wrapper {
-  margin-left: 12%;
+  margin-left: 8%;
+
 }
 
 .bio-container {
@@ -90,7 +91,7 @@ removing materialize waves effects */
 }
 
 .skyline__container {
-  max-width: 80%;
+  max-width: 90%;
   padding-bottom: 0px;
   margin-bottom: 0;
   display: flex;
@@ -106,7 +107,7 @@ removing materialize waves effects */
 .gray {
   background-color: #333333;
   color: white;
-  max-width: 80%;
+  max-width: 90%;
   padding: 5%;
   position: relative;
   z-index: 1;
