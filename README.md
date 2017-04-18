@@ -25,5 +25,4 @@ We also learned the key features and capabilities of Javascript and the MEAN sta
 
 Sincerely,
 
-### [Cohort 17](https://github.com/orgs/nss-day-cohort-17)  
-
+### [Cohort 17](https://github.com/orgs/nss-day-cohort-17)
