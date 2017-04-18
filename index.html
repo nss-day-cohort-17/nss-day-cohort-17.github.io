@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Class Website Boiler Plate</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/materialize/dist/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body backgroud="img/c17_backdrop.svg">
+    <div class="container-fixed red mainContainer">
+      <img class="background-img" src="img/c17_backdrop.svg" alt="gradient-sunburst">
+
+      <!-- setup angular app -->
+      <main>
+        <div ng-app="classList">
+
+          <!-- setup ng-view -->
+          <div ng-view></div>
+        </div>
+      </main>
+      <!-- end of angular app -->
+
+
+
+    </div><!-- end of container div -->
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script src="app/configAng.js"></script>
+    <script src="app/main.js"></script>
+    <script src="app/controllers/classList.js"></script>
+  </body>
+</html>

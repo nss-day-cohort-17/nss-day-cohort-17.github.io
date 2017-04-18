@@ -1,0 +1,23 @@
+{
+  "name": "classwebsiteboilerplate",
+  "homepage": "https://github.com/SorrelBrigman/classwebsiteboilerplate",
+  "authors": [
+    "Sorrel Brigman <sorrel.k@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.98.1",
+    "angular": "^1.6.3",
+    "ng-tour": "ng-route#*",
+    "angular-route": "^1.6.3"
+  }
+}
