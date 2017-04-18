@@ -13,6 +13,11 @@ body {
 /* Max width for student cards so they don't get huge on big screens */
 .student-container {
 	max-width: 300px;
+  display: justify-content;
+}
+
+.student-list {
+
 }
 
 /* Make the image a clickable thing even after
