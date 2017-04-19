@@ -5,7 +5,7 @@
     <a href="#" class="brand-logo left">NSS Logo</a>
     <form>
       <div class="input-field">
-        <input id="search" type="search" required>
+        <input ng-model="studentSearch" id="search" placeholder="Find Student" type="search" required>
         <label class="label-icon" for="search"><i class="material-icons searchBarLogo">search</i></label>
         <i class="material-icons">close</i>
       </div>
@@ -15,44 +15,45 @@
 
     <img class="background-img" src="img/c17_backdrop.svg" alt="gradient-sunburst">
     <!-- <img src="http://i.imgur.com/xSU1P.jpg" alt="nashvilleSkyline" class="skyline" width="500"> -->
+  
+  <div class="student-list-div-wrapper">
     <div class="skyline skyline__container">
       <img src="assets/images/skyline.png" alt="nashville skyline">
     </div>
-  
-  <div>
-    <div class="gray">
-      <div class="middleContainer container grey darken-4">
-        <div class="row student-list">
+    <!-- <div class="gray"> -->
+      <!-- <div class="middleContainer container grey darken-4"> -->
 
-    <div class="col xs6 xl4">
-      <div class="student-container">
-        <div class="card">
-          <div class="card-image">
-            <img class="activator" src="img/example-1.jpg">
+    <div class="gray">
+      <div class="row student-list"> 
+        <div ng-repeat="student in students | filter: studentSearch" class="col xs6 xl4 student-container">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="img/example-1.jpg">
+            </div>
+            <div class="card-content student-name-container">
+              <span class="center-align student-name card-title">{{student.name}}</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</p>
+            </div>
           </div>
-          <div class="card-content student-name-container">
-            <span class="center-align student-name card-title">Firstname Lastname</span>
+          <div class="icons-container">
+            <a href="{{student.linkedin}}">
+              <img class="linked-in-icon left" src="img/linkedin-icon-white.png">
+            </a>
+            <a ng-show="{{student.portfolio}}" href="{{student.portfolio}}">
+              <img class="website-icon" src="img/website-icon-white.png">
+            </a>
+            <a href="{{student.github}}">
+              <img class="github-icon right" src="img/github-icon-white.png">
+            </a>
           </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
-          </div>
-        </div>
-        <div class="icons-container">
-          <a href="https://www.linkedin.com/">
-            <img class="linked-in-icon left" src="img/linkedin-icon-white.png">
-          </a>
-          <a href="http://nickpettit.com/">
-            <img class="website-icon" src="img/website-icon-white.png">
-          </a>
-          <a href="https://github.com/">
-            <img class="github-icon right" src="img/github-icon-white.png">
-          </a>
-        </div>
-      </div> <!-- end .student-container -->
+        </div> <!-- end .student-container -->
+      </div>
     </div> <!-- end .col -->
   </div> <!-- end .student-list -->
 
@@ -98,5 +99,5 @@
         <img src="http://i.imgur.com/rutNqqK.jpg">
       </div>
 
-    </div><!-- end of middleContainer -->
+    </div>
   </div>
