@@ -6,6 +6,13 @@ body {
   background-size: cover;
 }
 
+.cohort-17-header {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 8%;
+  margin-top: 8%;
+}
+
 /*********************
  ** Student Cards
  *********************/
