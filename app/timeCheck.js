@@ -1,11 +1,11 @@
 `use strict`
 
-app.factory('getDateObjFactory', function() {
+app.factory('getDateObjFactory', function($scope) {
   console.log('running getDateObjFactory')
   return new Date()
 })
 
-app.factory('formatDateFactory', function() {
+app.factory('formatDateFactory', function($scope) {
   return {
     formatDate: () => {
       let year = $scope.dateTime.getFullYear();
