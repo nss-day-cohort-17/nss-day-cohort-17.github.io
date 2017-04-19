@@ -1,7 +1,9 @@
-app.controller('classListCtrl', function($scope, studentFactory){
-  console.log('in classListCtrl')
-  // $scope.dateTime = getDateObjFactory()
-  // $scope.parseTSADataFactory.parseData()
+app.controller('classListCtrl', function($scope, studentFactory, timeFactory){
+
+  timeFactory.getSunData()
+    .then(data => {
+      // console.log(data)
+    })
 
   studentFactory.getStudents()
     .then(students  => {
