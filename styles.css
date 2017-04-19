@@ -71,7 +71,12 @@
   color: orange;
   margin-bottom: 5px
 }
-
+.instructor-subtitle {
+  width: 100%;
+  color: orange;
+  margin-top: -5px;
+  padding-bottom: 10px;
+}
 
 .instructor__image {
   max-width: 300px;
