@@ -1,34 +1,61 @@
+body {
+  background: url(/img/c17_backdrop.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /*********************
  ** Student Cards
  *********************/
 
+/* Max width for student cards so they don't get huge on big screens */
 .student-container {
 	max-width: 300px;
-  padding: 10px;
+  display: justify-content;
+}
+
+.student-list {
+
+}
+
+/* Make the image a clickable thing even after
+removing materialize waves effects */
+.card-image {
+  cursor: pointer;
 }
 
 .student-name-container {
-  background-color: white;
-  padding: 10px;
+  padding: 18px !important;
 }
 
+/* Adjust to better orange color if needed */
+/* Override materialize margins */
 .student-name {
-  width: 100%;
   color: orange;
-  margin-bottom: 5px;
+  margin-bottom: 0px !important;
 }
 
+.student-list-div-wrapper {
+  margin-left: 8%;
+}
+
+.bio-container {
+  opacity: 0.8;
+}
+
+/* Make three equally-spaced icons under students */
 .icons-container {
   height: 75px;
   display: flex;
   justify-content: space-around;
 }
 
+/* max width / height for icons below student cards */
 .icons-container img {
-  min-width: 35px;
-  min-height: 35px;
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 35px;
+  max-height: 35px;
 }
 
 .background-img {
@@ -44,6 +71,8 @@
 
 .instructor-container {
   max-width: 300px;
+  display: justify-content;
+
 }
 
 
@@ -57,7 +86,7 @@
 }
 
 .instructor-card {
-  max-width: 280px;
+  width: 280px;
   margin: 10px;
 }
 
@@ -83,6 +112,10 @@
   height: auto;
 }
 
+.instructor-bio {
+  text-align: justify;
+  padding: 2%;
+}
 
 /*********************
  ** Boilerplate styles
@@ -91,21 +124,55 @@
 /*.mainContainer {
   position: absolute;
   z-index: -2;
-}
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#db2b2b+0,ffd749+100 */
+  /*background: #db2b2b; /* Old browsers */*/
+  /*background: -moz-radial-gradient(center, ellipse cover, #db2b2b 0%, #ffd749 100%); /* FF3.6-15 */*/
+  /*background: -webkit-radial-gradient(center, ellipse cover, #db2b2b 0%,#ffd749 100%); /* Chrome10-25,Safari5.1-6 */*/
+  /*background: radial-gradient(ellipse at center, #db2b2b 0%,#ffd749 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+  /*}*/
 
 .searchBarLogo {
   padding-left: 5em;
 }
 
-.skyImage {
-  position: absolute;
-  z-index: -1;
-
-}
 
 .skyline {
   display: inline;
   position: relative;
   z-index: 1;
 }
-*/
+
+.skyline__container {
+  max-width: 90%;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.skyline__container img {
+  max-width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.gray {
+  background-color: #333333;
+  color: white;
+  max-width: 90%;
+  padding: 3%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+
+.skyImage {
+  position: absolute;
+  z-index: -1;
+}

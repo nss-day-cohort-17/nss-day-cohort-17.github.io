@@ -1,54 +1,61 @@
 <!-- nav bar -->
+
 <nav>
   <div class="nav-wrapper">
     <a href="#" class="brand-logo left">NSS Logo</a>
     <form>
       <div class="input-field">
-        <input id="search" type="search" required>
+        <input ng-model="studentSearch" id="search" placeholder="Find Student" type="search" required>
         <label class="label-icon" for="search"><i class="material-icons searchBarLogo">search</i></label>
         <i class="material-icons">close</i>
       </div>
     </form>
   </div>
 </nav>
-<img src="http://i.imgur.com/xSU1P.jpg" alt="nashvilleSkyline" class="skyline" width="500">
-<h1>Cohort 17</h1>
 
-<div class="middleContainer container grey darken-4">
-  <div class="row student-list">
+    <img class="background-img" src="img/c17_backdrop.svg" alt="gradient-sunburst">
+    <!-- <img src="http://i.imgur.com/xSU1P.jpg" alt="nashvilleSkyline" class="skyline" width="500"> -->
 
-    <div class="col xs6 l4 xl3">
-      <div class="student-container">
-        <div class="student-name-container">
-          <h4 class="center-align student-name">Firstname Lastname</h4>
-        </div>
-        <div class="card student-card">
-          <div class="card-image waves-effect">
-            <img class="activator student-img" src="img/example-1.jpg">
-          </div>
-          <div class="card-reveal">
-            <div class="card-title">
-              <i class="material-icons right">close</i>
+  <div class="student-list-div-wrapper">
+    <div class="skyline skyline__container">
+      <img src="assets/images/skyline.png" alt="nashville skyline">
+    </div>
+    <!-- <div class="gray"> -->
+      <!-- <div class="middleContainer container grey darken-4"> -->
+
+    <div class="gray">
+      <div class="row student-list">
+        <div ng-repeat="student in students | filter: studentSearch" class="col xs6 xl4 student-container">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="img/example-1.jpg">
             </div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+             <div class="card-content student-name-container">
+              <span class="center-align student-name card-title">{{student.name}}</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</p>
+            </div>
           </div>
-        </div> <!-- end card -->
-        <div class="icons-container">
-          <a href="https://www.linkedin.com/">
-            <img class="linked-in-icon left" src="img/linked-in-icon.png">
-          </a>
-          <a href="http://nickpettit.com/">
-            <img class="website-icon" src="img/website-icon.png">
-          </a>
-          <a href="https://github.com/">
-            <img class="github-icon right" src="img/github-icon.png">
-          </a>
-        </div>
-      </div> <!-- end .student-container -->
+          <div class="icons-container">
+            <a href="{{student.linkedin}}">
+              <img class="linked-in-icon left" src="img/linkedin-icon-white.png">
+            </a>
+            <a ng-show="{{student.portfolio}}" href="{{student.portfolio}}">
+              <img class="website-icon" src="img/website-icon-white.png">
+            </a>
+            <a href="{{student.github}}">
+              <img class="github-icon right" src="img/github-icon-white.png">
+            </a>
+          </div>
+        </div> <!-- end .student-container -->
+      </div>
     </div> <!-- end .col -->
-  </div> <!-- end .row -->
+  </div> <!-- end .student-list -->
 
 
   <div class="instructor-list">
@@ -67,48 +74,33 @@
             <h5 class="center-align instructor-name">Lead Instructor</h5>
             <p class="center-align instructor-subtitle">Node.js</p>
           </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Joe Shepherd<i class="material-icons right">close</i></span>
+          <div class="card-reveal instructor-bio">
+            <span class="card-title grey-text text-darken-4 "><i class="material-icons right">close</i>Joe Shepherd</span>
             <p>A graduate of the second NSS web developer bootcamp way back in 2013, Joe is a mid-career convert to the software world after many years as an award-winning radio and online producer, writer, and voice talent. The thread that runs through his career is communication. The dissemination of information for the education and entertainment of a wide audience has always been at the center of his professional life.</p>
           </div>
+         </div> <!-- end of card -->
+        </div> <!-- end of col -->
+      </div> <!-- end of row -->
+    </div> <!-- end of instructor list -->
+
+
+
+
+
+
+        <div class="technologies">
+          <h1>Technologies!!</h1>
+          <i class="large material-icons">insert_chart</i>
+          <i class="large material-icons">insert_chart</i>
+          <i class="large material-icons">insert_chart</i>
+          <i class="large material-icons">insert_chart</i>
+          <i class="large material-icons">insert_chart</i>
+          <i class="large material-icons">insert_chart</i>
         </div>
 
-      </div> <!-- end of col -->
-<!--             <div class="col xs6 l4 xl3">
+      <div class="classPicture">
+        <img src="http://i.imgur.com/rutNqqK.jpg">
+      </div>
 
-        <div class="card instructor-card">
-          <div class="instructor-name-container">
-            <h4 class="center-align instructor-name">Scott Humphries</h4>
-          </div>
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator responsive-img instructor__image" src="img/instructors/scott.jpg">
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Scott Humphries<i class="material-icons right">close</i></span>
-            <p>Scott Humphries is a open-source contributor and freelance consultant who is consumed by the fantastic, exciting, and fast-moving world of Modern JavaScript™.</p>
-
-            <p>For more than 10 years, Scott has worked as a general technologist, and since he’s from Nashville, naturally also as a musician. Originally focused on back-end operations, Scott primarily worked with small businesses and local schools in implementing back-office software solutions such as Exchange, Access, and SQL server, planning and improving infrastructure, training, and providing input on curriculum. Later, while receiving his Bachelor’s degree in Economics, he transitioned his practice offering application development, analytics, A/B testing, sales funnel optimization, and actuarial data science services.</p>
-          </div>
-        </div>
-
-      </div> <!-- end of col -->
-
-    </div> <!-- end of row -->
-  </div> <!-- end of instructor list -->
-
-
-  <div class="technologies">
-    <h1>Technologies!!</h1>
-    <i class="large material-icons">insert_chart</i>
-    <i class="large material-icons">insert_chart</i>
-    <i class="large material-icons">insert_chart</i>
-    <i class="large material-icons">insert_chart</i>
-    <i class="large material-icons">insert_chart</i>
-    <i class="large material-icons">insert_chart</i>
+    </div>
   </div>
-
-  <div class="classPicture">
-    <img src="http://i.imgur.com/rutNqqK.jpg">
-  </div>
-
-</div><!-- end of middleContainer -->
