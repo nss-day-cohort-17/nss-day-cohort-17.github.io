@@ -10,7 +10,7 @@ app.factory('timeFactory', function($http) {
     },
     getSunData() {
       let date = this.formatDate()
-      let tsaUrl = 'http:' + '//' + `apps.tsa.dhs.gov/MyTSAWebService/GetEventInfo.ashx?eventtype=sunrise_sunset&eventdate=${date}&airportcode=BNA&output=json`
+      let tsaUrl = 'http:' + '//' + 'api.sunrise-sunset.org/json?lat=36.1627&lng=-86.7816&date=today'
       return $http.get(tsaUrl)
       .then(function(value) {
         console.log(`value`, value)
