@@ -73,6 +73,7 @@ app.factory('timeFactory', function($http) {
         } else {
           return 'night'
         }
+      // if it's night it will look to see if current time in nashville is before sunset hour and set to day otherwise set to night
       } else {
         if(currentNashHour12 <= sunHour) {
           return 'day'
