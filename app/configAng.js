@@ -1,6 +1,5 @@
 //assign the angular module to the var app
-var app = angular.module("classList", ['ngRoute']);
-console.log('in configAng.js')
+const app = angular.module("classList", ['ngRoute']);
 
 //configure "app" with routeProvider
 app.config(($routeProvider, $locationProvider)=> {
