@@ -31,7 +31,7 @@
               <img class="activator" src="img/example-1.jpg">
             </div>
             <div class="card-content student-name-container">
-              <span class="center-align student-name card-title activator">{{student.name}}</span>
+              <span class="center-align student-name card-title">{{student.name}}</span>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
@@ -45,7 +45,7 @@
             <a href="{{student.linkedin}}">
               <img class="linked-in-icon left" src="img/linkedin-icon-white.png">
             </a>
-            <a href="{{student.portfolio}}">
+            <a ng-show="{{student.portfolio}}" href="{{student.portfolio}}">
               <img class="website-icon" src="img/website-icon-white.png">
             </a>
             <a href="{{student.github}}">
