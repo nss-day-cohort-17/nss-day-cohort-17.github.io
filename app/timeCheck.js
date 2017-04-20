@@ -30,6 +30,9 @@ app.factory('timeFactory', function($http) {
     currentDate() {
       return new Date()
     },
+    timeZoneOffsetInHours() {
+      return this.currentDate().getTimezoneOffset()/60
+    },
     currentHour() {
       return this.currentDate().getHours()
     }
