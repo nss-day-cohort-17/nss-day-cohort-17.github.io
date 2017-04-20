@@ -9,9 +9,8 @@ app.factory('timeFactory', function($http) {
       })
     },
     getSunData() {
-      let date = this.formatDate()
-      let tsaUrl = 'http:' + '//' + 'api.sunrise-sunset.org/json?lat=36.1627&lng=-86.7816&date=today'
-      return $http.get(tsaUrl)
+      const sunriseSunsetOrgUrl = 'http:' + '//' + 'api.sunrise-sunset.org/json?lat=36.1627&lng=-86.7816&date=today'
+      return $http.get(sunriseSunsetOrgUrl)
       .then(function(value) {
         console.log(`value`, value)
         return value.data
