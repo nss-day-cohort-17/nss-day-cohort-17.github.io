@@ -34,7 +34,15 @@ app.factory('timeFactory', function($http) {
       return this.currentDate().getTimezoneOffset()/60
     },
     currentHour() {
-      return this.currentDate().getHours()
-    }
+      return this.currentDate.getHours()
+    },
+    isItAM() {
+      if (currentHour()+1 < 12) {
+        return true
+      } else {
+        return false
+      }
+    },
+
   }
 })
