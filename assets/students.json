@@ -117,54 +117,38 @@
 			"name" : "Joel Legg",
 			"github" : "github.com/joellegg",
 			"linkedin" : "linkedin.com/in/joellegg",
+			"portfolio" : "joellegg.com",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Luke Woodward",
+			"github" : "https://github.com/lukewalt",
+			"linkedin" : "https://www.linkedin.com/in/luke-woodward/",
 			"portfolio" : "",
 			"proimg" : "",
 			"sillyimg" : ""
 		},
 		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
+			"name" : "Sorrel Brigman",
+			"github" : "https://github.com/SorrelBrigman",
+			"linkedin" : "https://www.linkedin.com/in/sorrel-brigman/",
+			"portfolio" : "https://sorrelbrigman.github.io",
+			"proimg" : "",
+			"sillyimg" : ""
+		},
+		{
+			"name" : "Jesse Waddell",
+			"github" : "https://github.com/J-Waddell",
+			"linkedin" : "https://www.linkedin.com/in/jesse-waddell-64059b141/",
 			"portfolio" : "",
 			"proimg" : "",
 			"sillyimg" : ""
 		},
 		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
-		},
-		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
-		},
-		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
-		},
-		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
-		},
-		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
+			"name" : "Athena Perez",
+			"github" : "https://github.com/athenaperez",
+			"linkedin" : "https://www.linkedin.com/in/athena-perez-89325a104/",
 			"portfolio" : "",
 			"proimg" : "",
 			"sillyimg" : ""
