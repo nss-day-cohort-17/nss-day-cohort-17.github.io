@@ -12,8 +12,8 @@ app.controller('classListCtrl', function($scope, studentFactory, timeFactory){
     let dayOrNight = timeFactory.dayOrNight(nashSunHour)
     $scope.backgroundImg = timeFactory.getTimeSettings(dayOrNight).backgroundImg
 
-  const time = timeFactory.currentHourInNashville()
-  console.log('timezone offset', time)
+    console.log('test', $scope.backgroundImg)
+  })
 
   studentFactory.getStudents()
   .then(students  => {
