@@ -81,8 +81,9 @@ app.factory('timeFactory', function($http) {
         }
       }
     },
+    // returns the settings for day or nighttime
     getTimeSettings(dayOrNight) {
-      let timeSettingsObj = {backgroundImg:""}
+      let timeSettingsObj = {backgroundImg: "", backgroundCol: ""}
       if(dayOrNight === 'day') {
         timeSettingsObj.backgroundImg = '/img/c17_backdrop.svg'
       } else {
