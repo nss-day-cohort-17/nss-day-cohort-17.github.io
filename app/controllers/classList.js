@@ -7,7 +7,7 @@ app.controller('classListCtrl', function($scope, studentFactory, timeFactory){
     console.log('sunset', $scope.sunset)
   })
 
-  const time = timeFactory.timeZoneOffsetInHours()
+  const time = timeFactory.currentHourInNashville()
   console.log('timezone offset', time)
 
   studentFactory.getStudents()

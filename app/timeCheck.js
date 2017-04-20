@@ -1,5 +1,6 @@
 `use strict`
 
+// lots of functions for figuring out if it's day or night
 app.factory('timeFactory', function($http) {
   return {
     parseData() {
