@@ -42,6 +42,53 @@ app.factory('timeFactory', function($http) {
         return false
       }
     },
-
+    // checks to see if sunrise or sunset should be used for comparison
+    useSunriseSunset(sunriseSunsetObj) {
+      if(this.isItAM()) {
+        return sunriseSunsetObj.sunrise
+      } else {
+        return sunriseSunsetObj.sunset
+      }
+    },
+    // handles negative numbers resulting from subtracting time zone offset from 12 hour clock
+    handleNeg(hour) {
+      if(hour <= 0) {
+        return hour + 12
+      } else {
+        return hour
+      }
+    },
+    // figures out if it's day or night
+    dayOrNight(sunHour) {
+      // gets current time in nashville (12 hour clock)
+      let currentNashHour12 = this.currentHourInNashville() - 12
+      // handles negative numbers
+      if (currentNashHour12 <= 0) {
+        currentNashHour12 = currentNashHour12 + 12
+      }
+      // if it's morning it will look to see if current time in nashville is after sunrise hour and set to day otherwise set to night
+      if(this.isItAM()) {
+        if(currentNashHour12 >= sunHour) {
+          return 'day'
+        } else {
+          return 'night'
+        }
+      } else {
+        if(currentNashHour12 <= sunHour) {
+          return 'day'
+        } else {
+          return 'night'
+        }
+      }
+    },
+    getTimeSettings(dayOrNight) {
+      let timeSettingsObj = {backgroundImg:""}
+      if(dayOrNight === 'day') {
+        timeSettingsObj.backgroundImg = '/img/c17_backdrop.svg'
+      } else {
+        timeSettingsObj.backgroundImg = '/img/c17_backdrop_night.png'
+      }
+      return timeSettingsObj
+    }
   }
 })
