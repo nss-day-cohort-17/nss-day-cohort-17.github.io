@@ -30,11 +30,14 @@
 
     <div class="gray">
       <div class="row student-list">
+
         <div ng-repeat="student in students | filter: studentSearch" class="student-container">
+
           <div class="card">
             <div class="card-image">
               <img class="activator" src="img/example-1.jpg">
             </div>
+
             <div class="card-content student-name-container">
               <span class="center-align student-name card-title activator">{{student.name}}</span>
             </div>
@@ -62,33 +65,36 @@
     </div> <!-- end .col -->
   </div> <!-- end .student-list -->
 
-        <div class="instructor-list">
-          <h1>Instructors</h1>
-          <div class="row">
-            <div class="col s12 m7">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://i.imgur.com/ztCw44N.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Instructor Name<i class="material-icons right">more_vert</i></span>
-                  <div class="card-action">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 2</a>
-                  </div>
-                  <!-- <p><a href="#">This is a link</a></p> -->
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Instructor Name<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-              </div>
 
-            </div> <!-- end of col -->
-          </div> <!-- end of row -->
-        </div> <!-- end of instructor list -->
-      </div>
+  <div class="instructor-list">
+    <h1 class="center-align">Instructors</h1>
+    <div class="row">
+      <div class="col xs6 l4 xl3">
+
+        <div class="card instructor-card">
+          <div class="instructor-name-container">
+            <h4 class="center-align instructor-name">Joe Shepherd</h4>
+          </div>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator responsive-img instructor__image" src="img/instructors/joe.jpg">
+          </div>
+          <div class="instructor-title-container">
+            <h5 class="center-align instructor-name">Lead Instructor</h5>
+            <p class="center-align instructor-subtitle">Node.js</p>
+          </div>
+          <div class="card-reveal instructor-bio">
+            <span class="card-title grey-text text-darken-4 "><i class="material-icons right">close</i>Joe Shepherd</span>
+            <p>A graduate of the second NSS web developer bootcamp way back in 2013, Joe is a mid-career convert to the software world after many years as an award-winning radio and online producer, writer, and voice talent. The thread that runs through his career is communication. The dissemination of information for the education and entertainment of a wide audience has always been at the center of his professional life.</p>
+          </div>
+         </div> <!-- end of card -->
+        </div> <!-- end of col -->
+      </div> <!-- end of row -->
+    </div> <!-- end of instructor list -->
+
+
+
+
+
 
         <div class="technologies">
           <h1>Technologies!!</h1>
