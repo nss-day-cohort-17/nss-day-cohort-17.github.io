@@ -10,9 +10,11 @@ app.controller('classListCtrl', function($scope, studentFactory, timeFactory){
     // deals with negative numbers from previous operation
     let nashSunHour = timeFactory.handleNeg(nashSunHourTent)
     let dayOrNight = timeFactory.dayOrNight(nashSunHour)
-    let settingsObj = timeFactory.getTimeSettings(dayOrNight).backgroundImg
-    $scope.backgroundImg = settingsObj.backgroundImg
-    $scope.backgroundColor = settingsObj.backgroundCol
+    $scope.backgroundImg = timeFactory.getTimeSettings(dayOrNight).backgroundImg
+    $scope.backgroundColor = timeFactory.getTimeSettings(dayOrNight).backgroundCol
+    console.log('backgroundImg', $scope.backgroundImg)
+
+    // $scope.backgroundColor = settingsObj.backgroundCol
   })
 
   studentFactory.getStudents()
