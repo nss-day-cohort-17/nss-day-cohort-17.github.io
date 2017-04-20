@@ -11,7 +11,7 @@ app.controller('classListCtrl', function($scope, studentFactory, timeFactory){
   console.log('timezone offset', time)
 
   studentFactory.getStudents()
-    .then(students  => {
-      $scope.students = students
-    })
+  .then(students  => {
+    $scope.students = students
+  })
 })

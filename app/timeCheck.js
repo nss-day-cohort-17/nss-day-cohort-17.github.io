@@ -15,6 +15,18 @@ app.factory('timeFactory', function($http) {
         return value.data.results
       })
     },
+    getSunrise() {
+      getSunData()
+      .then(function(value) {
+        return value.sunrise
+      })
+    },
+    getSunset() {
+      getSunData()
+      .then(function(value) {
+        return value.sunset
+      })
+    },
     currentDate() {
       return new Date()
     },
