@@ -10,22 +10,11 @@ app.factory('timeFactory', function($http) {
       // runs the GET
       return $http.get(sunriseSunsetOrgUrl)
       .then(function(value) {
-        // drilled down to only return results object
-        return value.data.results
-      })
-    },
-    // gets sunrise time out of previous call and splits the string
-    getSunrise() {
-      getSunData()
-      .then(function(value) {
-        return value.sunrise.split(':')
-      })
-    },
-    // gets sunset time out of previous call and splits the string
-    getSunset() {
-      getSunData()
-      .then(function(value) {
-        return value.sunset.split(':')
+        // returns and object with just sunrise and sunset data
+        let sunDataObj = {}
+        sunDataObj.sunrise = value.data.results.sunrise
+        sunDataObj.sunset = value.data.results.sunset
+        return sunDataObj
       })
     },
     // returns the user's date
