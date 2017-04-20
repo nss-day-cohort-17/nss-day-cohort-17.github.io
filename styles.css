@@ -9,14 +9,29 @@ body {
 .cohort-17-header {
   position: relative;
   z-index: 1;
-  color: rgb(40,40,40);
+  color: rgb(50,50,50);
   margin-bottom: 8%;
   margin-top: 8%;
-  font-family: 'Righteous', cursive;
-  font-size: 100px;
-  text-shadow: 1px 30px 30px rgba(0,0,0, .5);
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  /*font-family: 'Oswald', sans-serif;*/
+  text-shadow: 1px 15px 30px rgba(40,40,40, .3),
+  1px 17px rgba(40,40,40, .1),
+  1px 19px rgba(40,40,40, .1),
+  1px 21px rgba(40,40,40, .1),
+  1px 23px rgba(40,40,40, .1);
 }
 
+.cohort-17-header > span {
+  letter-spacing: .5px;
+  font-size: 8em;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+.nav-wrapper {
+  background-color: rgba(40,40,40, .9) 
+}
 /*********************
  ** Student Cards
  *********************/
@@ -62,6 +77,8 @@ removing materialize waves effects */
 
 .student-list-div-wrapper {
   margin-left: 8%;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
 }
 
 .bio-container {
