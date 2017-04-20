@@ -17,6 +17,9 @@ app.factory('timeFactory', function($http) {
     },
     currentDate() {
       return new Date()
+    },
+    currentHour() {
+      return this.currentDate().getHours()
     }
   }
 })
