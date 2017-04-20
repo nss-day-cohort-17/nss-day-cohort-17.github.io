@@ -1,5 +1,6 @@
 app.controller('classListCtrl', function($scope, studentFactory, timeFactory){
 
+  // makes http GET call to find sunrise and sunset time
   timeFactory.getSunData()
   .then(data => {
     $scope.sunrise = data.sunrise
