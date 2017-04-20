@@ -27,7 +27,12 @@ app.factory('timeFactory', function($http) {
     },
     // returns the current hour in nashville (24 hour clock)
     currentHourInNashville() {
-      return (this.currentDate().getHours() + this.timeZoneOffsetInHours() - 5)
+      let hour = (this.currentDate().getHours() + this.timeZoneOffsetInHours() - 5)
+      // handles negative numbers
+      if(hour < 0) {
+        hour = hour + 24
+      }
+      return hour
     },
     // checks to see if it's AM or PM hours
     isItAM() {
