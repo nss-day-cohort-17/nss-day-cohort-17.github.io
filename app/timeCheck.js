@@ -34,8 +34,8 @@ app.factory('timeFactory', function($http) {
     timeZoneOffsetInHours() {
       return this.currentDate().getTimezoneOffset()/60
     },
-    currentHour() {
-      return this.currentDate.getHours()
+    currentHourInNashville() {
+      return (this.currentDate().getHours() + this.timeZoneOffsetInHours() - 5)
     },
     isItAM() {
       if (currentHour()+1 < 12) {
