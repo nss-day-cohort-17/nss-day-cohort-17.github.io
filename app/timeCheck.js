@@ -36,7 +36,7 @@ app.factory('timeFactory', function($http) {
     },
     // checks to see if it's AM or PM hours
     isItAM() {
-      if (currentHourInNashville() < 12) {
+      if(this.currentHourInNashville() < 12) {
         return true
       } else {
         return false
