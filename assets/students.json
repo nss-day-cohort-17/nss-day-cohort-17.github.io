@@ -122,16 +122,10 @@
 			"name" : "Jufe Brown-Tsai",
 			"github" : "https://github.com/Jufebrown",
 			"linkedin" : "https://www.linkedin.com/in/jufe-brown-tsai-3a2701126/",
-<<<<<<< HEAD
-			"portfolio" : "",
+			"portfolio" : "https://jufebrown.github.io/",
 			"proimg" : "./img/jufe1",
 			"sillyimg" : "./img/jufe2",
 			"bio": ""
-=======
-			"portfolio" : "https://jufebrown.github.io/",
-			"proimg" : "",
-			"sillyimg" : ""
->>>>>>> aaa31bbb137cf71e6e0830d5adeef58363ec901b
 		},
 		{
 			"name" : "Joel Legg",
