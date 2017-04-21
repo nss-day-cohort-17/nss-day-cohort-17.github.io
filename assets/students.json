@@ -86,7 +86,7 @@
 			"name" : "Krishnapriya Sivasubramanian",
 			"github" : "https://github.com/priyakamesh",
 			"linkedin" : "https://www.linkedin.com/in/krishnapriya-sivasubramanian-95bb7b4a/",
-			"portfolio" : "",
+			"portfolio" : "http://krishpriya.com/",
 			"proimg" : "./img/priya",
 			"sillyimg" : "./img/priya",
 			"bio": "Junior Full-Stack Developer experience in working with MEAN stack technologies as well as SQLite and PostgreSQL Databases. Complimentary Masters education in Remote Sensing and Wireless Sensor Networks and Bachelors education in Electronics and Communication Engineering."
@@ -122,16 +122,10 @@
 			"name" : "Jufe Brown-Tsai",
 			"github" : "https://github.com/Jufebrown",
 			"linkedin" : "https://www.linkedin.com/in/jufe-brown-tsai-3a2701126/",
-<<<<<<< HEAD
-			"portfolio" : "",
+			"portfolio" : "https://jufebrown.github.io/",
 			"proimg" : "./img/jufe1",
 			"sillyimg" : "./img/jufe2",
 			"bio": ""
-=======
-			"portfolio" : "https://jufebrown.github.io/",
-			"proimg" : "",
-			"sillyimg" : ""
->>>>>>> aaa31bbb137cf71e6e0830d5adeef58363ec901b
 		},
 		{
 			"name" : "Joel Legg",
