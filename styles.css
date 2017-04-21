@@ -7,13 +7,11 @@ body {
 }
 
 .cohort-17-header {
+  text-align: center;
   position: relative;
   z-index: 1;
   color: rgb(50,50,50);
-  margin-bottom: 8%;
-  margin-top: 8%;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
-  /*font-family: 'Oswald', sans-serif;*/
+  margin-bottom: 3%;
   text-shadow: 1px 15px 30px rgba(40,40,40, .3),
   1px 17px rgba(40,40,40, .1),
   1px 19px rgba(40,40,40, .1),
@@ -21,12 +19,32 @@ body {
   1px 23px rgba(40,40,40, .1);
 }
 
+.NSS-header {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: rgb(50,50,50);
+  padding-top: 3%;
+  text-shadow: 1px 2px 30px rgba(40,40,40, .3),
+  1px 4px rgba(40,40,40, .1),
+  1px 6px rgba(40,40,40, .1),
+  1px 8px rgba(40,40,40, .1),
+  1px 10px rgba(40,40,40, .1);
+}
+
 .cohort-17-header > span {
   letter-spacing: .5px;
-  font-size: 8em;
+  font-size: 8rem;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
+}
+
+.NSS-header > span {
+  letter-spacing: .5px;
+  font-size: 6rem;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .nav-wrapper {
@@ -111,8 +129,7 @@ removing materialize waves effects */
 
 .instructor-container {
   max-width: 300px;
-  display: justify-content;
-
+  display: justify-content;\
 }
 
 
@@ -225,6 +242,13 @@ removing materialize waves effects */
     display: flex;
     flex-direction: column;
   } 
+  .cohort-17-header > span {
+    letter-spacing: .5px;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 600px) {
@@ -235,4 +259,11 @@ removing materialize waves effects */
     display: flex;
     flex-direction: column;
   } 
+  .cohort-17-header > span {
+    letter-spacing: .5px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+  }
 }
