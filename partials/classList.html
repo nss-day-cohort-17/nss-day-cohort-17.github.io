@@ -1,6 +1,6 @@
 <!-- nav bar -->
-<!-- 
-<nav>
+
+<!-- <nav>
   <div class="nav-wrapper">
     <a href="#" class="brand-logo left">NSS Logo</a>
     <form>
@@ -16,14 +16,11 @@
 <div class="main-body" style="background-color: {{backgroundColor}};">
   <img class="background-img" src={{backgroundImg}} alt="gradient-sunburst">
 
-  <!-- <div class="row">  -->
-    <div class="NSS-header">
-      <span>Nashville Software School</span>
-    </div>
+  <div class="row"> cohort 17
     <div class="cohort-17-header">
       <span>COHORT 17</span>
     </div>
-  <!-- </div> -->
+  </div>
 
   <div class="student-list-div-wrapper">
     <div class="skyline skyline__container">
@@ -36,18 +33,15 @@
       <div class="row student-list">
         <div ng-repeat="student in students | filter: studentSearch" class="student-container">
           <div class="card">
-            <div ng-if= "!student.sillyimg" class="card-image">
-              <img class="activator" src="{{student.proimg}}">
-            </div>
-            <div ng-if= "student.sillyimg" ng-init="imgsrc= student.proimg" ng-mouseover="imgsrc= student.sillyimg" ng-mouseout="imgsrc= student.proimg" class="card-image">
-              <img ng-if="student.sillyimg" class="activator" src="{{imgsrc}}">
+            <div class="card-image">
+              <img class="activator" src="img/example-1.jpg">
             </div>
             <div class="card-content student-name-container">
               <span class="center-align student-name card-title">{{student.name}}</span>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-              <p class="grey-text text-darken-4">Systema ablative boy shanty town fluidity systemic render-farm weathered bomb digital voodoo god meta. Grenade BASE jump bomb footage boy military-grade warehouse faded A.I. vehicle artisanal alcohol youtube long-chain hydrocarbons concrete. Euro-pop RAF katana decay concrete 8-bit savant alcohol film weathered hacker lights network drone crypto-kanji hotdog. Hacker film car silent marketing market urban carbon 8-bit motion dome-ware numinous nano-tattoo. Crypto-meta-boy receding face forwards-space physical hotdog 8-bit jeans fluidity bomb warehouse-ware stimulate. Tanto sub-orbital alcohol wonton soup neural augmented reality RAF weathered. Film carbon neural plastic narrative free-market footage industrial grade j-pop. Savant j-pop pistol-ware drone engine tanto man free-market. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              <p>Systema ablative boy shanty town fluidity systemic render-farm weathered bomb digital voodoo god meta. Grenade BASE jump bomb footage boy military-grade warehouse faded A.I. vehicle artisanal alcohol youtube long-chain hydrocarbons concrete. Euro-pop RAF katana decay concrete 8-bit savant alcohol film weathered hacker lights network drone crypto-kanji hotdog. Hacker film car silent marketing market urban carbon 8-bit motion dome-ware numinous nano-tattoo. Crypto-meta-boy receding face forwards-space physical hotdog 8-bit jeans fluidity bomb warehouse-ware stimulate. Tanto sub-orbital alcohol wonton soup neural augmented reality RAF weathered. Film carbon neural plastic narrative free-market footage industrial grade j-pop. Savant j-pop pistol-ware drone engine tanto man free-market. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat.</p>
@@ -65,152 +59,107 @@
             </a>
           </div>
         </div> <!-- end .student-container -->
-      </div> <!-- end of student-list -->
-
-
 
         <div class="instructor-list row">
           <h1 class="center-align">Instructors</h1>
-          <div class="row instructors-all">
+          <div class="row">
+            <div class="col xs6 l4 xl3">
 
-            <div class="instructor-container">
               <div class="card instructor-card">
                 <div class="instructor-name-container">
                   <h4 class="center-align instructor-name">Joe Shepherd</h4>
                 </div>
-                <div class="card-image waves-effect waves-block waves-light instructor-image-container">
-                  <img class="activator responsive-img instructor-image" src="img/instructors/joeS.jpg">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator responsive-img instructor__image" src="img/instructors/joe.jpg">
                 </div>
                 <div class="instructor-title-container">
-                  <h5 class="center-align instructor-name">Back End Lead Instructor</h5>
+                  <h5 class="center-align instructor-name">Lead Instructor</h5>
                   <p class="center-align instructor-subtitle">Node.js</p>
                 </div>
                 <div class="card-reveal instructor-bio">
                   <span class="card-title grey-text text-darken-4 "><i class="material-icons right">close</i>Joe Shepherd</span>
-                  <p class="grey-text text-darken-4">A graduate of the second NSS web developer bootcamp way back in 2013, Joe is a mid-career convert to the software world after many years as an award-winning radio and online producer, writer, and voice talent. The thread that runs through his career is communication. The dissemination of information for the education and entertainment of a wide audience has always been at the center of his professional life.</p>
-
-                  <p class="grey-text text-darken-4">After NSS, Joe worked as a front-end developer for Lonely Planet where he learned at the feet of some of the best developers from Nashville and around the world. In January 2015, he became a part of the teaching team for Nashville Software School’s first cohort of part-time night course students. In 2016, he returned to NSS full-time as a lead instructor.</p>
-
-
+                  <p>A graduate of the second NSS web developer bootcamp way back in 2013, Joe is a mid-career convert to the software world after many years as an award-winning radio and online producer, writer, and voice talent. The thread that runs through his career is communication. The dissemination of information for the education and entertainment of a wide audience has always been at the center of his professional life.</p>
                 </div>
                </div> <!-- end of card -->
-            </div> <!-- end of instructor container -->
-
-
-            <div class="instructor-container">
-              <div class="card instructor-card">
-                <div class="instructor-name-container">
-                  <h4 class="center-align instructor-name">Scott Humphries</h4>
-                </div>
-                <div class="card-image waves-effect waves-block waves-light instructor-image-container">
-                  <img class="activator responsive-img instructor-image" src="img/instructors/scott.jpg">
-                </div>
-                <div class="instructor-title-container">
-                  <h5 class="center-align instructor-name">Front End Lead Instructor</h5>
-                  <p class="center-align instructor-subtitle">JavaScript</p>
-                </div>
-                <div class="card-reveal instructor-bio">
-                  <span class="card-title grey-text text-darken-4 "><i class="material-icons right">close</i>Scott Humphries</span>
-                  <p class="grey-text text-darken-4">Scott Humphries is a open-source contributor and freelance consultant who is consumed by the fantastic, exciting, and fast-moving world of Modern JavaScript™. </p>
-                  <p class="grey-text text-darken-4">For more than 10 years, Scott has worked as a general technologist, and since he’s from Nashville, naturally also as a musician. Originally focused on back-end operations, Scott primarily worked with small businesses and local schools in implementing back-office software solutions such as Exchange, Access, and SQL server, planning and improving infrastructure, training, and providing input on curriculum. Later, while receiving his Bachelor’s degree in Economics, he transitioned his practice offering application development, analytics, A/B testing, sales funnel optimization, and actuarial data science services.</p>
-
-                </div>
-               </div> <!-- end of card -->
-            </div> <!-- end of instructor container -->
-
-            <div class="instructor-container">
-              <div class="card instructor-card">
-                <div class="instructor-name-container">
-                  <h4 class="center-align instructor-name">Caitlin Stein</h4>
-                </div>
-                <div class="card-image waves-effect waves-block waves-light instructor-image-container">
-                  <img class="activator responsive-img instructor-image" src="img/instructors/caitlin.jpg">
-                </div>
-                <div class="instructor-title-container">
-                  <h5 class="center-align instructor-name">Junior Instructor</h5>
-                  <p class="center-align instructor-subtitle">JavaScript and Node.js</p>
-                </div>
-                <div class="card-reveal instructor-bio">
-                  <span class="card-title grey-text text-darken-4 "><i class="material-icons right">close</i>Caitlin Stein</span>
-                  <p class="grey-text text-darken-4">After spending a decade in public school classrooms teaching band and other music courses, Caitlin attended Nashville Software School in 2015 as part of cohort 10. Upon graduation, Caitlin joined the NSS instruction team as one of the first junior instructors. As a junior instructor at NSS Caitlin has assisted in teaching front end development, C#, and Node and she has put her previous education experience to use contributing to the development of the NSS curriculum. In her free time, Caitlin enjoys spending time with her family, knitting, and distance running.</p>
-                </div>
-               </div> <!-- end of card -->
-            </div> <!-- end of instructor container -->
-
-            <div class="instructor-container">
-              <div class="card instructor-card">
-                <div class="instructor-name-container">
-                  <h4 class="center-align instructor-name">Dom Serrano</h4>
-                </div>
-                <div class="card-image waves-effect waves-block waves-light instructor-image-container">
-                  <img class="activator responsive-img instructor-image" src="img/instructors/dom.png">
-                </div>
-                <div class="instructor-title-container">
-                  <h5 class="center-align instructor-name">Teaching Assistant</h5>
-                  <p class="center-align instructor-subtitle">JavaScript and Node.js</p>
-                </div>
-                <div class="card-reveal instructor-bio">
-                  <span class="card-title grey-text text-darken-4 "><i class="material-icons right">close</i>Dom Serrano</span>
-                  <p class="grey-text text-darken-4">Dominic Serrano is a Nashville native and full stack developer. He is a Nashville Software School graduate who enjoys working with vanilla JavaScript, AngularJS and React on the front-end, as well as NodeJS and dabbling with Python on the back-end.</p>
-                </div>
-               </div> <!-- end of card -->
-            </div> <!-- end of instructor container -->
-
-            <div class="instructor-container">
-              <div class="card instructor-card">
-                <div class="instructor-name-container">
-                  <h4 class="center-align instructor-name">Callan Morrison</h4>
-                </div>
-                <div class="card-image waves-effect waves-block waves-light instructor-image-container">
-                  <img class="activator responsive-img instructor-image" src="img/instructors/callanM.jpg">
-                </div>
-                <div class="instructor-title-container">
-                  <h5 class="center-align instructor-name">Advisor</h5>
-                  <p class="center-align instructor-subtitle">JavaScript</p>
-                </div>
-                <div class="card-reveal instructor-bio">
-                  <span class="card-title grey-text text-darken-4 "><i class="material-icons right">close</i>Callan Morrison</span>
-                  <p class="grey-text text-darken-4">Callan is a Product Owner by day and an NSS Junior Instructor by night. She is an Angular, SQL and JavaScript junkie; but mostly loves a mind-bending challenge (and appreciates the vast quantity of those that Cohort 17 provided). In the wild, she’s a dog person with a fifth-grade sense of humor.</p>
-                </div>
-               </div> <!-- end of card -->
-            </div> <!-- end of instructor container -->
-
-            <div class="instructor-container">
-              <div class="card instructor-card">
-                <div class="instructor-name-container">
-                  <h4 class="center-align instructor-name">Jack Mocherman</h4>
-                </div>
-                <div class="card-image waves-effect waves-block waves-light instructor-image-container">
-                  <img class="activator responsive-img instructor-image center" src="img/instructors/JackEdit.jpg">
-                </div>
-                <div class="instructor-title-container">
-                  <h5 class="center-align instructor-name">Advisor</h5>
-                  <p class="center-align instructor-subtitle">JavaScript, Git</p>
-                </div>
-                <div class="card-reveal instructor-bio">
-                  <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Jack Mocherman</span>
-                  <p class="grey-text text-darken-4">Jack’s greatest passion is learning. Between coding reading and creating, he is constantly trying to build up his knowledge base using a combination of experience and insight.</p>
-                </div>
-               </div> <!-- end of card -->
-            </div> <!-- end of instructor container -->
-
-
+            </div> <!-- end of col -->
           </div> <!-- end of row -->
-        </div> <!-- end of instructors -->
+        </div> <!-- end of instructor -->
 
         <div class="technologies">
           <h1>Technologies!!</h1>
-          <i class="large material-icons">insert_chart</i>
-          <i class="large material-icons">insert_chart</i>
-          <i class="large material-icons">insert_chart</i>
-          <i class="large material-icons">insert_chart</i>
-          <i class="large material-icons">insert_chart</i>
-          <i class="large material-icons">insert_chart</i>
+          <div id="tech" class='technologies--content container'>
+            <div class="row">
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img tooltips class="tech-img node" src="../img/technologies/angularjs.png"  tooltip-side="top" tooltip-show-trigger='mouseover' tooltip-template="AngularJS" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/bootstrap.jpeg" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Bootstrap" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/chaijs-mocha.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Mocha / Chai" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/css3.svg" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="CSS3" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/drawio.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="DrawIO" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/express.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Express" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/firebase.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Firebase" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/git_logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Git" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/github.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="GitHub" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/grunt.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Grunt" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/HTML5_logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="HTML5" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/jquery.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="jQuery" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/js.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="JavaScript" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/materialize.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Materialize" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/moqups.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="moqups" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/nodejs-logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Nodejs" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/npm.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="npm" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/postgresql-logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="postgres" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/sass.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="sass" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/Slack.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Slack" />
+              </div>
+              <div class="col col-md-3 col-sm-4 tech-icon">
+                <img class="tech-img" src="../img/technologies/Trello_logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Trello" />
+              </div>
+            </div>
+          </div>  
         </div>
         <div class="classPicture">
           <img src="http://i.imgur.com/rutNqqK.jpg">
         </div>
+      </div>
     </div> <!-- end gray -->
-
-  </div> <!-- end .student-list-div-wrapper -->
+  </div> <!-- end .student-list -->
 </div>
+
