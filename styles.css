@@ -111,7 +111,8 @@ removing materialize waves effects */
 
 .instructor-container {
   padding:0;
-  width: 30%;
+  max-width: 30%;
+  flex-shrink: 0;
   /*display: justify-content;*/
 /*  display: flex;*/
 /*  flex-direction: column;*/
@@ -125,18 +126,25 @@ removing materialize waves effects */
 .instructor-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
-  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
+/*  max-width: 80%;*/
+
   /*flex-flow: row wrap;*/
 }
 
+.instructors-all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
+}
 
 
 .instructor-card {
-  width: 280px;
-  margin: 10px;
+/*  width: 280px;
+  margin: 10px;*/
 
 }
 
