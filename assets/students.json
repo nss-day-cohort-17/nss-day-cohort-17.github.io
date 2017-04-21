@@ -6,192 +6,200 @@
 			"github" : "https://github.com/j-West",
 			"linkedin" : "https://www.linkedin.com/in/j-west/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/jameswest1.jpg",
+			"sillyimg" : "assets/img/jameswest2.jpg",
+			"bio": ""
 		},
 		{
 			"name" : "Peter Garrido",
 			"github" : "https://github.com/pgarrido57",
 			"linkedin" : "https://www.linkedin.com/in/peter-garrido-11686b90",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/peter1.jpg",
+			"sillyimg" : "assets/img/peter2.jpg",
+			"bio": "Peter is a classically trained chef who traded in his knives to concoct coding recipes, with a special interest in IT security.  He flavors his tech recipes with deep knowledge of mobile platforms and equipment. When not coding or cooking, he is a Dad and car aficionado."
 		},
 		{
 			"name" : "Billy Connolly",
 			"github" : "https://github.com/sirwilliamiv",
 			"linkedin" : "https://www.linkedin.com/in/billyconnolly/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/billy1.jpg",
+			"sillyimg" : "assets/img/billy2.jpg",
+			"bio": ""
 		},
 		{
 			"name" : "Jared Fuller",
 			"github" : "https://github.com/jaredshane",
 			"linkedin" : "https://www.linkedin.com/in/jaredshane/",
 			"portfolio" : "https://jaredshane.github.io/",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/jared1.jpg",
+			"sillyimg" : "assets/img/jared2.jpg",
+			"bio": "History scholar and baseball addict with a passion for problem solving and recently discovered a love of all things Javascript and SQL."
 		},
 		{
 			"name" : "Michael Watson",
 			"github" : "https://github.com/mwatson615",
-			"linkedin" : "www.linkedin.com/in/michael-watson615",
+			"linkedin" : "https://www.linkedin.com/in/michael-watson615",
 			"portfolio" : "https://mwatson615.github.io/",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/watson1.jpg",
+			"sillyimg" : "assets/img/watson2.jpg",
+			"bio": "When I'm not coding, I can often be found hiking to waterfalls on the Cumberland Plateau, playing mandolin, or writing and performing comedy for stage and screen."
 		},
 		{
 			"name" : "Ashley Irwin",
 			"github" : "https://github.com/ashleyirwin3",
 			"linkedin" : "https://www.linkedin.com/in/ashley-irwin-578699110/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/ashley1.jpg",
+			"sillyimg" : "assets/img/ashley2.jpg",
+			"bio": ""
 		},
 		{
 			"name" : "Ben Conner",
-			"github" : "github.com/benConner",
-			"linkedin" : "linkedin.com/in/benjamin-conner",
+			"github" : "https://github.com/benConner",
+			"linkedin" : "https://www.linkedin.com/in/benjamin-conner",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/ben1.jpg",
+			"sillyimg" : "assets/img/ben2.jpg",
+			"bio": ""
 		},
 		{
 			"name" : "Terrill Farmer",
 			"github" : "https://github.com/T-Farmer",
 			"linkedin" : "https://www.linkedin.com/in/terrill-farmer-52698013a",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/terrill1.jpg",
+			"sillyimg" : "assets/img/terrill2.jpg",
+			"bio": ""
 		},
 		{
 			"name" : "Robert Tortorelli",
 			"github" : "https://github.com/TSturtledove",
 			"linkedin" : "https://www.linkedin.com/in/robert-tortorelli-tsturtledove/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/robert1.jpg",
+			"sillyimg" : "assets/img/robert2.jpg",
+			"bio": "Robert Tortorelli is an Junior Developer with a background in Engineering Drafting/Design.  He enjoys the outdoors and road trips."
 		},
 		{
 			"name" : "Krishnapriya Sivasubramanian",
 			"github" : "https://github.com/priyakamesh",
 			"linkedin" : "https://www.linkedin.com/in/krishnapriya-sivasubramanian-95bb7b4a/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/priya1.jpg",
+			"sillyimg" : "assets/img/priya2.jpg",
+			"bio": "Junior Full-Stack Developer experience in working with MEAN stack technologies as well as SQLite and PostgreSQL Databases. Complimentary Masters education in Remote Sensing and Wireless Sensor Networks and Bachelors education in Electronics and Communication Engineering."
 		},
 		{
 			"name" : "Luke Schuyler",
 			"github" : "https://github.com/lukeschuyler",
 			"linkedin" : "https://www.linkedin.com/in/luke-schuyler-55974388/",
 			"portfolio" : "https://lukeschuyler.github.io/#/",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/lukes1.jpg",
+			"sillyimg" : "assets/img/lukes2.jpg",
+			"bio": ""
 		},
 		{
 			"name" : "Michael Tambornino",
-			"github" : "github.com/m-tambo",
-			"linkedin" : "linkedin.com/in/m-tambo/",
+			"github" : "https://github.com/m-tambo",
+			"linkedin" : "https://www.linkedin.com/in/m-tambo/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/tambo1.jpg",
+			"sillyimg" : "assets/img/tambo2.jpg",
+			"bio": ""
 		},
 		{
 			"name" : "Lucas McLaughlin",
 			"github" : "https://github.com/LucasMcL",
 			"linkedin" : "https://www.linkedin.com/in/lucasdmcl/",
 			"portfolio" : "https://lucasmcl.github.io/",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/lucas1.jpg",
+			"sillyimg" : "assets/img/lucas2.jpg",
+			"bio": ""
 		},
 		{
 			"name" : "Jufe Brown-Tsai",
 			"github" : "https://github.com/Jufebrown",
 			"linkedin" : "https://www.linkedin.com/in/jufe-brown-tsai-3a2701126/",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"portfolio" : "https://jufebrown.github.io/",
+
+			"proimg" : "assets/img/jufe1.jpg",
+			"sillyimg" : "assets/img/jufe2.jpg",
+
+			"bio": ""
 		},
 		{
 			"name" : "Joel Legg",
 			"github" : "github.com/joellegg",
 			"linkedin" : "linkedin.com/in/joellegg",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"portfolio" : "joellegg.com",
+			"proimg" : "assets/img/joel1.jpg",
+			"sillyimg" : "assets/img/joel2.jpg",
+			"bio": ""
 		},
 		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
+			"name" : "Luke Woodward",
+			"github" : "https://github.com/lukewalt",
+			"linkedin" : "https://www.linkedin.com/in/luke-woodward/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/lukew1.jpg",
+			"sillyimg" : "assets/img/lukew2.jpg",
+			"bio": ""
 		},
 		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"name" : "Sorrel Brigman",
+			"github" : "https://github.com/SorrelBrigman",
+			"linkedin" : "https://www.linkedin.com/in/sorrel-brigman/",
+			"portfolio" : "https://sorrelbrigman.github.io",
+			"proimg" : "assets/img/sorrel1.jpg",
+			"sillyimg" : "assets/img/sorrel2.jpg",
+			"bio": ""
 		},
 		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
+			"name" : "Jesse Waddell",
+			"github" : "https://github.com/J-Waddell",
+			"linkedin" : "https://www.linkedin.com/in/jesse-waddell-64059b141/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/jesse1.jpg",
+			"sillyimg" : "assets/img/jesse2.jpg",
+			"bio": ""
 		},
 		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
+			"name" : "Athena Perez",
+			"github" : "https://github.com/athenaperez",
+			"linkedin" : "https://www.linkedin.com/in/athena-perez-89325a104/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/athena.jpg",
+			"sillyimg" : "",
+			"bio": ""
 		},
 		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
+			"name" : "Westley Isbell",
+			"github" : "https://github.com/Wisbell",
+			"linkedin" : "https://www.linkedin.com/in/westley-isbell/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/westley1.jpg",
+			"sillyimg" : "assets/img/westley2.jpg",
+			"bio": ""
 		},
 		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
+			"name" : "James Wier",
+			"github" : "https://github.com/wierje",
+			"linkedin" : "https://www.linkedin.com/in/james-wier-60511821/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/wier1.jpg",
+			"sillyimg" : "",
+			"bio": ""
 		},
 		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
+			"name" : "Charlie Crocker",
+			"github" : "https://github.com/cscrocker84",
+			"linkedin" : "https://www.linkedin.com/in/charliescrocker/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
-		},
-		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
-		},
-		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "assets/img/charlie1.jpg",
+			"sillyimg" : "assets/img/charlie2.jpg",
+			"bio": "Charlie Crocker is a Nashville native who loves coding, the outdoors, traveling, and Nashville sports, Go Preds!  Was previously a GIS technician who got into coding to embrace the future of good jobs in this evolving world and be able to use his creative skills to help make the world a better place."
 		}
 	]
 

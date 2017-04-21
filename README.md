@@ -1,16 +1,16 @@
-# [nss-day-cohort-17.github.io](https://nss-day-cohort-17.github.io/) Click to visit
+-Coming soon!!!!!!!!!!!!!
 
-## [NSS](http://nashvillesoftwareschool.com/) Cohort D17 
-#### Instructors -  
-[Scott Humphries](https://github.com/sscotth) (Front-End)  
-[Joe Shephard](https://github.com/JoeShep) (Back-End)  
+## [NSS](http://nashvillesoftwareschool.com/) Cohort D17
+#### Instructors -
+[Scott Humphries](https://github.com/sscotth) (Front-End)
+[Joe Shephard](https://github.com/JoeShep) (Back-End)
 
 
-#### Advisors -  
-[Caitlin Stein](https://github.com/C-Stein)  
-[Dominic Serrano](https://github.com/DominicSerranoC14)  
-[Callan Morrison](https://github.com/morecallan)  
-[Jack Mocherman](https://github.com/jackmoch)  
+#### Advisors -
+[Caitlin Stein](https://github.com/C-Stein)
+[Dominic Serrano](https://github.com/DominicSerranoC14)
+[Callan Morrison](https://github.com/morecallan)
+[Jack Mocherman](https://github.com/jackmoch)
 
 ### What We Learned
 The NSS Web Developer Bootcamp is a six-month, full-time program. The curriculum teaches the skills and technologies required to become a full-stack software developer. For many of us, this course was our first introduction to programming. The core technologies that we used in this course are the three standard languages of the web: HTML, CSS and JavaScript. The Git/Github workflow was also a core concept that remained for the entirety of the bootcamp.  This course prepared us to work and build the front-end code associated with websites, web apps and hybrid mobile applications.
@@ -25,5 +25,4 @@ We also learned the key features and capabilities of Javascript and the MEAN sta
 
 Sincerely,
 
-### [Cohort 17](https://github.com/orgs/nss-day-cohort-17)  
-
+### [Cohort 17](https://github.com/orgs/nss-day-cohort-17)
