@@ -6,176 +6,189 @@
 			"github" : "https://github.com/j-West",
 			"linkedin" : "https://www.linkedin.com/in/j-west/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/jameswest1",
+			"sillyimg" : "./img/jameswest2",
+			"bio": ""
 		},
 		{
 			"name" : "Peter Garrido",
 			"github" : "https://github.com/pgarrido57",
 			"linkedin" : "https://www.linkedin.com/in/peter-garrido-11686b90",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/peter1",
+			"sillyimg" : "./img/peter2",
+			"bio": "Peter is a classically trained chef who traded in his knives to concoct coding recipes, with a special interest in IT security.  He flavors his tech recipes with deep knowledge of mobile platforms and equipment. When not coding or cooking, he is a Dad and car aficionado."
 		},
 		{
 			"name" : "Billy Connolly",
 			"github" : "https://github.com/sirwilliamiv",
 			"linkedin" : "https://www.linkedin.com/in/billyconnolly/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/billy1",
+			"sillyimg" : "./img/billy2",
+			"bio": ""
 		},
 		{
 			"name" : "Jared Fuller",
 			"github" : "https://github.com/jaredshane",
 			"linkedin" : "https://www.linkedin.com/in/jaredshane/",
 			"portfolio" : "https://jaredshane.github.io/",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/jared1",
+			"sillyimg" : "./img/jared2",
+			"bio": ""
 		},
 		{
 			"name" : "Michael Watson",
 			"github" : "https://github.com/mwatson615",
 			"linkedin" : "www.linkedin.com/in/michael-watson615",
 			"portfolio" : "https://mwatson615.github.io/",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/watson1",
+			"sillyimg" : "./img/watson2",
+			"bio": "When I'm not coding, I can often be found hiking to waterfalls on the Cumberland Plateau, playing mandolin, or writing and performing comedy for stage and screen. My background is public administration and audio/video production."
 		},
 		{
 			"name" : "Ashley Irwin",
 			"github" : "https://github.com/ashleyirwin3",
 			"linkedin" : "https://www.linkedin.com/in/ashley-irwin-578699110/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/ashley1",
+			"sillyimg" : "./img/ashley2",
+			"bio": ""
 		},
 		{
 			"name" : "Ben Conner",
 			"github" : "github.com/benConner",
 			"linkedin" : "linkedin.com/in/benjamin-conner",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/ben1",
+			"sillyimg" : "./img/ben2",
+			"bio": ""
 		},
 		{
 			"name" : "Terrill Farmer",
 			"github" : "https://github.com/T-Farmer",
 			"linkedin" : "https://www.linkedin.com/in/terrill-farmer-52698013a",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/terrill1",
+			"sillyimg" : "./img/terrill2",
+			"bio": ""
 		},
 		{
 			"name" : "Robert Tortorelli",
 			"github" : "https://github.com/TSturtledove",
 			"linkedin" : "https://www.linkedin.com/in/robert-tortorelli-tsturtledove/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/robert1",
+			"sillyimg" : "./img/robert2",
+			"bio": "Robert Tortorelli is an Junior Developer with a background in Engineering Drafting/Design.  He enjoys the outdoors and road trips."
 		},
 		{
 			"name" : "Krishnapriya Sivasubramanian",
 			"github" : "https://github.com/priyakamesh",
 			"linkedin" : "https://www.linkedin.com/in/krishnapriya-sivasubramanian-95bb7b4a/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/priya",
+			"sillyimg" : "./img/priya",
+			"bio": ""
 		},
 		{
 			"name" : "Luke Schuyler",
 			"github" : "https://github.com/lukeschuyler",
 			"linkedin" : "https://www.linkedin.com/in/luke-schuyler-55974388/",
 			"portfolio" : "https://lukeschuyler.github.io/#/",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/lukes1",
+			"sillyimg" : "./img/lukes2",
+			"bio": ""
 		},
 		{
 			"name" : "Michael Tambornino",
 			"github" : "github.com/m-tambo",
 			"linkedin" : "linkedin.com/in/m-tambo/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/tambo1",
+			"sillyimg" : "./img/tambo2",
+			"bio": ""
 		},
 		{
 			"name" : "Lucas McLaughlin",
 			"github" : "https://github.com/LucasMcL",
 			"linkedin" : "https://www.linkedin.com/in/lucasdmcl/",
 			"portfolio" : "https://lucasmcl.github.io/",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/lucas1",
+			"sillyimg" : "./img/lucas2",
+			"bio": ""
 		},
 		{
 			"name" : "Jufe Brown-Tsai",
 			"github" : "https://github.com/Jufebrown",
 			"linkedin" : "https://www.linkedin.com/in/jufe-brown-tsai-3a2701126/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/jufe1",
+			"sillyimg" : "./img/jufe2",
+			"bio": ""
 		},
 		{
 			"name" : "Joel Legg",
 			"github" : "github.com/joellegg",
 			"linkedin" : "linkedin.com/in/joellegg",
 			"portfolio" : "joellegg.com",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/joel1",
+			"sillyimg" : "./img/joel2",
+			"bio": ""
 		},
 		{
 			"name" : "Luke Woodward",
 			"github" : "https://github.com/lukewalt",
 			"linkedin" : "https://www.linkedin.com/in/luke-woodward/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "lukew1",
+			"sillyimg" : "lukew2",
+			"bio": ""
 		},
 		{
 			"name" : "Sorrel Brigman",
 			"github" : "https://github.com/SorrelBrigman",
 			"linkedin" : "https://www.linkedin.com/in/sorrel-brigman/",
 			"portfolio" : "https://sorrelbrigman.github.io",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/sorrel1",
+			"sillyimg" : "./img/sorrel2",
+			"bio": ""
 		},
 		{
 			"name" : "Jesse Waddell",
 			"github" : "https://github.com/J-Waddell",
 			"linkedin" : "https://www.linkedin.com/in/jesse-waddell-64059b141/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/jesse1",
+			"sillyimg" : "./img/jesse2",
+			"bio": ""
 		},
 		{
 			"name" : "Athena Perez",
 			"github" : "https://github.com/athenaperez",
 			"linkedin" : "https://www.linkedin.com/in/athena-perez-89325a104/",
 			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"proimg" : "./img/athena",
+			"sillyimg" : "",
+			"bio": ""
 		},
 		{
-			"name" : "",
+			"name" : "Westley Isbell",
+			"github" : "https://github.com/Wisbell",
+			"linkedin" : "https://www.linkedin.com/in/westley-isbell/",
+			"portfolio" : "",
+			"proimg" : "./img/westley1",
+			"sillyimg" : "./img/westley2",
+			"bio": ""
+		},
+		{
+			"name" : "James Wier",
 			"github" : "",
 			"linkedin" : "",
 			"portfolio" : "",
 			"proimg" : "",
-			"sillyimg" : ""
-		},
-		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
-		},
-		{
-			"name" : "",
-			"github" : "",
-			"linkedin" : "",
-			"portfolio" : "",
-			"proimg" : "",
-			"sillyimg" : ""
+			"sillyimg" : "",
+			"bio": ""
 		}
 	]
 
