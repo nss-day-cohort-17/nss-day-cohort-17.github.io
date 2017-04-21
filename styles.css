@@ -150,7 +150,7 @@ removing materialize waves effects */
 
 .instructor-name-container {
   padding: 18px !important;
-  min-height: 100px;
+  min-height: 130px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,15 +161,29 @@ removing materialize waves effects */
   color: orange;
   margin-bottom: 5px
 }
+
+.instructor-title-container {
+  min-height: 95px;
+}
+
+
+
 .instructor-subtitle {
   width: 100%;
   color: orange;
   padding-bottom: 10px;
 }
 
+.instructor-image-container {
+  max-height: 205px !important;
+}
+
 .instructor-image {
-  max-width: 300px;
+/*  max-width: 300px;
+  height: auto;*/
+  margin: 0 auto;
   height: auto;
+  width: auto;
 }
 
 .instructor-bio {
