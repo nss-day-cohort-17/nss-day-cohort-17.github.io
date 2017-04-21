@@ -1,39 +1,180 @@
+body {
+  background: url(/img/c17_backdrop.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cohort-17-header {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: rgb(50,50,50);
+  margin-bottom: 3%;
+  text-shadow: 1px 15px 30px rgba(40,40,40, .3),
+  1px 17px rgba(40,40,40, .1),
+  1px 19px rgba(40,40,40, .1),
+  1px 21px rgba(40,40,40, .1),
+  1px 23px rgba(40,40,40, .1);
+  height: 80%;
+}
+
+.NSS-header {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: rgb(50,50,50);
+  padding-top: 5%;
+  text-shadow: 1px 2px 30px rgba(40,40,40, .3),
+  1px 3px rgba(40,40,40, .1),
+  1px 4px rgba(40,40,40, .1),
+  1px 5px rgba(40,40,40, .1),
+  1px 6px rgba(40,40,40, .1);
+}
+
+.cohort-17-header > span {
+  letter-spacing: .5px;
+  font-size: 8rem;
+  text-align: center;
+  padding-top: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+.NSS-header > span {
+  letter-spacing: .5px;
+  font-size: 2.4rem;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+.nav-wrapper {
+  background-color: rgba(40,40,40, .9) 
+}
 /*********************
  ** Student Cards
  *********************/
 
+/* Max width for student cards so they don't get huge on big screens */
 .student-container {
-	max-width: 300px;
-  padding: 10px;
+  padding:0;
+	width: 30%;
+  /*display: justify-content;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+  /*flex-flow: row wrap;*/
+}
+
+/* Make the image a clickable thing even after
+removing materialize waves effects */
+.card-image {
+  cursor: pointer;
 }
 
 .student-name-container {
-  background-color: white;
-  padding: 10px;
+  padding: 18px !important;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Adjust to better orange color if needed */
+/* Override materialize margins */
 .student-name {
-  width: 100%;
   color: orange;
-  margin-bottom: 5px;
+  margin-bottom: 0px !important;
 }
 
+.student-list-div-wrapper {
+  margin-left: 8%;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+
+.bio-container {
+  opacity: 0.8;
+}
+
+/* Make three equally-spaced icons under students */
 .icons-container {
   height: 75px;
   display: flex;
   justify-content: space-around;
 }
 
+/* max width / height for icons below student cards */
 .icons-container img {
-  min-width: 35px;
-  min-height: 35px;
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 35px;
+  max-height: 35px;
 }
 
 .background-img {
 	position: absolute;
 	width: 100%;
+}
+
+
+
+/*********************
+ ** Instructor Cards
+ *********************/
+
+.instructor-container {
+  max-width: 300px;
+  display: justify-content;\
+}
+
+
+.card-image {
+  cursor: pointer;
+}
+
+.instructor-list {
+/*  background-color: green;*/
+/*  position: relative;*/
+}
+
+.instructor-card {
+  width: 280px;
+  margin: 10px;
+}
+
+.instructor-name-container {
+  background-color: white;
+  padding: 10px;
+}
+
+.instructor-name {
+  width: 100%;
+  color: orange;
+  margin-bottom: 5px
+}
+.instructor-subtitle {
+  width: 100%;
+  color: orange;
+
+  padding-bottom: 10px;
+}
+
+.instructor__image {
+  max-width: 300px;
+  height: auto;
+}
+
+.instructor-bio {
+  text-align: justify;
+  padding: 2%;
 }
 
 /*********************
@@ -43,21 +184,89 @@
 /*.mainContainer {
   position: absolute;
   z-index: -2;
-}
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#db2b2b+0,ffd749+100 */
+  /*background: #db2b2b; /* Old browsers */*/
+  /*background: -moz-radial-gradient(center, ellipse cover, #db2b2b 0%, #ffd749 100%); /* FF3.6-15 */*/
+  /*background: -webkit-radial-gradient(center, ellipse cover, #db2b2b 0%,#ffd749 100%); /* Chrome10-25,Safari5.1-6 */*/
+  /*background: radial-gradient(ellipse at center, #db2b2b 0%,#ffd749 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+  /*}*/
 
 .searchBarLogo {
   padding-left: 5em;
 }
 
-.skyImage {
-  position: absolute;
-  z-index: -1;
-
-}
 
 .skyline {
   display: inline;
   position: relative;
   z-index: 1;
 }
-*/
+
+.skyline__container {
+  max-width: 90%;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.skyline__container img {
+  max-width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.gray {
+  background-color: #333333;
+  color: white;
+  max-width: 90%;
+  padding: 3%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+
+.skyImage {
+  position: absolute;
+  z-index: -1;
+}
+
+@media (max-width: 850px) {
+   .student-container {
+    padding:0;
+    width: 40%;
+    /*display: justify-content;*/
+    display: flex;
+    flex-direction: column;
+  } 
+  .cohort-17-header > span {
+    letter-spacing: .5px;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 600px) {
+   .student-container {
+    padding:0;
+    width: 70%;
+    /*display: justify-content;*/
+    display: flex;
+    flex-direction: column;
+  } 
+  .cohort-17-header > span {
+    letter-spacing: .5px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+  }
+}

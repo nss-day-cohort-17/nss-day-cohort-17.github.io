@@ -40,7 +40,7 @@
 		{
 			"name" : "Michael Watson",
 			"github" : "https://github.com/mwatson615",
-			"linkedin" : "www.linkedin.com/in/michael-watson615",
+			"linkedin" : "https://www.linkedin.com/in/michael-watson615",
 			"portfolio" : "https://mwatson615.github.io/",
 			"proimg" : "./img/watson1",
 			"sillyimg" : "./img/watson2",
@@ -57,8 +57,8 @@
 		},
 		{
 			"name" : "Ben Conner",
-			"github" : "github.com/benConner",
-			"linkedin" : "linkedin.com/in/benjamin-conner",
+			"github" : "https://github.com/benConner",
+			"linkedin" : "https://www.linkedin.com/in/benjamin-conner",
 			"portfolio" : "",
 			"proimg" : "./img/ben1",
 			"sillyimg" : "./img/ben2",
@@ -102,8 +102,8 @@
 		},
 		{
 			"name" : "Michael Tambornino",
-			"github" : "github.com/m-tambo",
-			"linkedin" : "linkedin.com/in/m-tambo/",
+			"github" : "https://github.com/m-tambo",
+			"linkedin" : "https://www.linkedin.com/in/m-tambo/",
 			"portfolio" : "",
 			"proimg" : "./img/tambo1",
 			"sillyimg" : "./img/tambo2",
@@ -122,10 +122,16 @@
 			"name" : "Jufe Brown-Tsai",
 			"github" : "https://github.com/Jufebrown",
 			"linkedin" : "https://www.linkedin.com/in/jufe-brown-tsai-3a2701126/",
+<<<<<<< HEAD
 			"portfolio" : "",
 			"proimg" : "./img/jufe1",
 			"sillyimg" : "./img/jufe2",
 			"bio": ""
+=======
+			"portfolio" : "https://jufebrown.github.io/",
+			"proimg" : "",
+			"sillyimg" : ""
+>>>>>>> aaa31bbb137cf71e6e0830d5adeef58363ec901b
 		},
 		{
 			"name" : "Joel Legg",
