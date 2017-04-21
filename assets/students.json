@@ -35,7 +35,7 @@
 			"portfolio" : "https://jaredshane.github.io/",
 			"proimg" : "./img/jared1",
 			"sillyimg" : "./img/jared2",
-			"bio": ""
+			"bio": "History scholar and baseball addict with a passion for problem solving and recently discovered a love of all things Javascript and SQL."
 		},
 		{
 			"name" : "Michael Watson",
@@ -44,7 +44,7 @@
 			"portfolio" : "https://mwatson615.github.io/",
 			"proimg" : "./img/watson1",
 			"sillyimg" : "./img/watson2",
-			"bio": "When I'm not coding, I can often be found hiking to waterfalls on the Cumberland Plateau, playing mandolin, or writing and performing comedy for stage and screen. My background is public administration and audio/video production."
+			"bio": "When I'm not coding, I can often be found hiking to waterfalls on the Cumberland Plateau, playing mandolin, or writing and performing comedy for stage and screen."
 		},
 		{
 			"name" : "Ashley Irwin",
@@ -89,7 +89,7 @@
 			"portfolio" : "",
 			"proimg" : "./img/priya",
 			"sillyimg" : "./img/priya",
-			"bio": ""
+			"bio": "Junior Full-Stack Developer experience in working with MEAN stack technologies as well as SQLite and PostgreSQL Databases. Complimentary Masters education in Remote Sensing and Wireless Sensor Networks and Bachelors education in Electronics and Communication Engineering."
 		},
 		{
 			"name" : "Luke Schuyler",
@@ -141,8 +141,8 @@
 			"github" : "https://github.com/lukewalt",
 			"linkedin" : "https://www.linkedin.com/in/luke-woodward/",
 			"portfolio" : "",
-			"proimg" : "lukew1",
-			"sillyimg" : "lukew2",
+			"proimg" : "./img/lukew1",
+			"sillyimg" : "./img/lukew2",
 			"bio": ""
 		},
 		{
@@ -183,12 +183,21 @@
 		},
 		{
 			"name" : "James Wier",
-			"github" : "",
-			"linkedin" : "",
+			"github" : "https://github.com/wierje",
+			"linkedin" : "https://www.linkedin.com/in/james-wier-60511821/",
 			"portfolio" : "",
-			"proimg" : "",
+			"proimg" : "./img/wier1",
 			"sillyimg" : "",
 			"bio": ""
+		},
+		{
+			"name" : "Charlie Crocker",
+			"github" : "https://github.com/cscrocker84",
+			"linkedin" : "https://www.linkedin.com/in/charliescrocker/",
+			"portfolio" : "",
+			"proimg" : "./img/charlie1",
+			"sillyimg" : "./img/charlie2",
+			"bio": "Charlie Crocker is a Nashville native who loves coding, the outdoors, traveling, and Nashville sports, Go Preds!  Was previously a GIS technician who got into coding to embrace the future of good jobs in this evolving world and be able to use his creative skills to help make the world a better place."
 		}
 	]
 
