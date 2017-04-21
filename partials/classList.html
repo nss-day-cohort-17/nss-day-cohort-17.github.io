@@ -36,8 +36,11 @@
       <div class="row student-list">
         <div ng-repeat="student in students | filter: studentSearch" class="student-container">
           <div class="card">
-            <div class="card-image">
-              <img class="activator" src="img/example-1.jpg">
+            <div ng-if= "!student.sillyimg" class="card-image">
+              <img class="activator" src="{{student.proimg}}">
+            </div>
+            <div ng-if= "student.sillyimg" ng-init="imgsrc= student.proimg" ng-mouseover="imgsrc= student.sillyimg" ng-mouseout="imgsrc= student.proimg" class="card-image">
+              <img ng-if="student.sillyimg" class="activator" src="{{imgsrc}}">
             </div>
             <div class="card-content student-name-container">
               <span class="center-align student-name card-title">{{student.name}}</span>
