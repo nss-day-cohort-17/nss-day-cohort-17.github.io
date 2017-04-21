@@ -30,7 +30,7 @@ body {
 }
 
 .nav-wrapper {
-  background-color: rgba(40,40,40, .9) 
+  background-color: rgba(40,40,40, .9)
 }
 /*********************
  ** Student Cards
@@ -110,9 +110,11 @@ removing materialize waves effects */
  *********************/
 
 .instructor-container {
-  max-width: 300px;
-  display: justify-content;
-
+  padding:0;
+  width: 30%;
+  /*display: justify-content;*/
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -121,18 +123,29 @@ removing materialize waves effects */
 }
 
 .instructor-list {
-/*  background-color: green;*/
-/*  position: relative;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+  /*flex-flow: row wrap;*/
 }
+
+
+
 
 .instructor-card {
   width: 280px;
   margin: 10px;
+
 }
 
 .instructor-name-container {
-  background-color: white;
-  padding: 10px;
+  padding: 18px !important;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .instructor-name {
@@ -143,11 +156,10 @@ removing materialize waves effects */
 .instructor-subtitle {
   width: 100%;
   color: orange;
-
   padding-bottom: 10px;
 }
 
-.instructor__image {
+.instructor-image {
   max-width: 300px;
   height: auto;
 }
@@ -224,7 +236,7 @@ removing materialize waves effects */
     /*display: justify-content;*/
     display: flex;
     flex-direction: column;
-  } 
+  }
 }
 
 @media (max-width: 600px) {
@@ -234,5 +246,5 @@ removing materialize waves effects */
     /*display: justify-content;*/
     display: flex;
     flex-direction: column;
-  } 
+  }
 }
