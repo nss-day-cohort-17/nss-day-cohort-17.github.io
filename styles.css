@@ -113,8 +113,8 @@ removing materialize waves effects */
   padding:0;
   width: 30%;
   /*display: justify-content;*/
-  display: flex;
-  flex-direction: column;
+/*  display: flex;*/
+/*  flex-direction: column;*/
 }
 
 
@@ -222,6 +222,7 @@ removing materialize waves effects */
   position: relative;
   z-index: 1;
   display: flex;
+  flex-direction: column;
 }
 
 .skyImage {
