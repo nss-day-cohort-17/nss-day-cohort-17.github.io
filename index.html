@@ -5,6 +5,7 @@
     <title>Class Website Boiler Plate</title>
     <link rel="stylesheet" type="text/css" href="bower_components/materialize/dist/css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-tooltips/dist/angular-tooltips.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body backgroud="img/c17_backdrop.svg">
@@ -17,77 +18,7 @@
 
           <!-- setup ng-view -->
           <div ng-view></div>
-          <div id="tech" class='technologies--content container'>
-    <div class="row">
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img tooltips class="tech-img node" src="../img/technologies/angularjs.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltip-template="AngularJS"/>
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/bootstrap.jpeg" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Bootstrap"/>
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/chaijs-mocha.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Mocha / Chai" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/css3.svg" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="CSS3" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/drawio.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="DrawIO" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/express.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Express" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/firebase.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Firebase" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/git_logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Git" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/github.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="GitHub" />
-      </div>
 
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/grunt.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Grunt" />
-      </div>
-
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/HTML5_logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="HTML5" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/jquery.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="jQuery" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/js.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="JavaScript" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/materialize.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Materialize" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/moqups.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="moqups" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/nodejs-logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Nodejs" />
-      </div>
-
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/npm.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="npm" />
-      </div>
-
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/postgresql-logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="postgres" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/sass.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="sass" />
-      </div>
-      <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/Slack.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Slack" />
-      </div>
-       <div class="col col-md-3 col-sm-4 tech-icon">
-        <img class="tech-img" src="../img/technologies/Trello_logo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Trello" />
-      </div>
-
-        </div>
       </main>
       <!-- end of angular app -->
 
@@ -99,6 +30,7 @@
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script src="bower_components/angular-tooltips/dist/angular-tooltips.min.js"></script>
     <script src="app/configAng.js"></script>
     <script src="app/main.js"></script>
     <script src="app/controllers/classList.js"></script>
