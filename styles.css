@@ -1,11 +1,37 @@
 body {
-  background: url(/img/c17_backdrop.svg) no-repeat center center fixed; 
+  background: url(/img/c17_backdrop.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+.cohort-17-header {
+  position: relative;
+  z-index: 1;
+  color: rgb(50,50,50);
+  margin-bottom: 8%;
+  margin-top: 8%;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  /*font-family: 'Oswald', sans-serif;*/
+  text-shadow: 1px 15px 30px rgba(40,40,40, .3),
+  1px 17px rgba(40,40,40, .1),
+  1px 19px rgba(40,40,40, .1),
+  1px 21px rgba(40,40,40, .1),
+  1px 23px rgba(40,40,40, .1);
+}
+
+.cohort-17-header > span {
+  letter-spacing: .5px;
+  font-size: 8em;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+.nav-wrapper {
+  background-color: rgba(40,40,40, .9) 
+}
 /*********************
  ** Student Cards
  *********************/
@@ -51,6 +77,8 @@ removing materialize waves effects */
 
 .student-list-div-wrapper {
   margin-left: 8%;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
 }
 
 .bio-container {
@@ -73,6 +101,60 @@ removing materialize waves effects */
 .background-img {
 	position: absolute;
 	width: 100%;
+}
+
+
+
+/*********************
+ ** Instructor Cards
+ *********************/
+
+.instructor-container {
+  max-width: 300px;
+  display: justify-content;
+
+}
+
+
+.card-image {
+  cursor: pointer;
+}
+
+.instructor-list {
+/*  background-color: green;*/
+/*  position: relative;*/
+}
+
+.instructor-card {
+  width: 280px;
+  margin: 10px;
+}
+
+.instructor-name-container {
+  background-color: white;
+  padding: 10px;
+}
+
+.instructor-name {
+  width: 100%;
+  color: orange;
+  margin-bottom: 5px
+}
+.instructor-subtitle {
+  width: 100%;
+  color: orange;
+
+  padding-bottom: 10px;
+}
+
+.instructor__image {
+  max-width: 300px;
+  height: auto;
+}
+
+.instructor-bio {
+  text-align: justify;
+  padding: 2%;
 }
 
 /*********************
