@@ -1,5 +1,5 @@
 body {
-  background: url(/img/c17_backdrop.svg) no-repeat center center fixed; 
+  background: url(/img/c17_backdrop.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,6 +73,60 @@ removing materialize waves effects */
 .background-img {
 	position: absolute;
 	width: 100%;
+}
+
+
+
+/*********************
+ ** Instructor Cards
+ *********************/
+
+.instructor-container {
+  max-width: 300px;
+  display: justify-content;
+
+}
+
+
+.card-image {
+  cursor: pointer;
+}
+
+.instructor-list {
+/*  background-color: green;*/
+/*  position: relative;*/
+}
+
+.instructor-card {
+  width: 280px;
+  margin: 10px;
+}
+
+.instructor-name-container {
+  background-color: white;
+  padding: 10px;
+}
+
+.instructor-name {
+  width: 100%;
+  color: orange;
+  margin-bottom: 5px
+}
+.instructor-subtitle {
+  width: 100%;
+  color: orange;
+
+  padding-bottom: 10px;
+}
+
+.instructor__image {
+  max-width: 300px;
+  height: auto;
+}
+
+.instructor-bio {
+  text-align: justify;
+  padding: 2%;
 }
 
 /*********************
