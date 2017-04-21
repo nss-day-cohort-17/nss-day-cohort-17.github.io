@@ -26,22 +26,22 @@
       "name": "Dom Serrano",
       "title": "Advisor",
       "subtitle": "JavaScript and Node.js",
-      "bio": "",
-      "image": "img/instructors/caitlin.jpg"
+      "bio": "Dominic Serrano is a Nashville native and full stack developer. He is a Nashville Software School graduate who enjoys working with vanilla JavaScript, AngularJS and React on the front-end, as well as NodeJS and dabbling with Python on the back-end.",
+      "image": "img/instructors/dom.png"
     },
     {
       "name": "Callan Morrison",
       "title": "Advisor",
       "subtitle": "JavaScript",
       "bio": "Callan is a Product Owner by day and an NSS Junior Instructor by night. She is an Angular, SQL and JavaScript junkie; but mostly loves a mind-bending challenge (and appreciates the vast quantity of those that Cohort 17 provided). In the wild, she’s a dog person with a fifth-grade sense of humor.",
-      "image": "img/instructors/caitlinM.jpg"
+      "image": "img/instructors/callanM.jpg"
     },
     {
       "name": "Jack Mocherman",
       "title": "Advisor",
       "subtitle": "JavaScript, Git",
-      "bio": "",
-      "image": "img/instructors/caitlin.jpg"
+      "bio": "Jack’s greatest passion is learning. Between coding reading and creating, he is constantly trying to build up his knowledge base using a combination of experience and insight.",
+      "image": "img/instructors/jack.jpg"
     }
   ]
 }
