@@ -20,6 +20,7 @@ app.controller('classListCtrl', function($scope, studentFactory, timeFactory){
 
   studentFactory.getStudents()
   .then(students  => {
-    $scope.students = students
+    let studentArray = studentFactory.shuffleStudents(students)
+    $scope.students = studentArray
   })
 })
