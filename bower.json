@@ -19,6 +19,7 @@
     "materialize": "^0.98.1",
     "angular": "^1.6.3",
     "ng-tour": "ng-route#*",
-    "angular-route": "^1.6.3"
+    "angular-route": "^1.6.3",
+    "angular-tooltips": "^1.1.10"
   }
 }
