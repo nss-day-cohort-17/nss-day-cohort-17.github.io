@@ -123,12 +123,12 @@ removing materialize waves effects */
 	position: absolute;
 	width: 100%;
 }
-.tech-img {
+/*.tech-img {
 
   height: 50px;
 
 
-}
+}*/
 
 
 
@@ -279,6 +279,22 @@ removing materialize waves effects */
   position: absolute;
   z-index: -1;
 }
+
+.technologies {
+  text-align: center;
+}
+
+.tech-img {
+  height: 80px;
+  width: auto;
+  padding-bottom: 10%;
+}
+
+.tech-img-big {
+  height: 50%;
+  width: 50%;
+}
+
 
 @media (max-width: 850px) {
    .student-container {
