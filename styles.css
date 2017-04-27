@@ -64,12 +64,13 @@ body {
   /*display: justify-content;*/
   display: flex;
   flex-direction: column;
+  margin: 1.5%;
 }
 
 .student-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
   flex-direction: row;
   /*flex-flow: row wrap;*/
@@ -304,7 +305,7 @@ removing materialize waves effects */
     display: flex;
     flex-direction: column;
 
-  } 
+  }
   .cohort-17-header > span {
     letter-spacing: .5px;
     font-size: 5rem;
@@ -323,7 +324,7 @@ removing materialize waves effects */
     display: flex;
     flex-direction: column;
 
-  } 
+  }
   .cohort-17-header > span {
     letter-spacing: .5px;
     font-size: 3rem;
