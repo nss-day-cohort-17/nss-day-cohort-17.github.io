@@ -280,8 +280,11 @@ removing materialize waves effects */
   z-index: -1;
 }
 
+/*TECHNOLOGIES*/
+
 .technologies {
   text-align: center;
+  background-color: rgba(255, 255, 255, .7)
 }
 
 .tech-img {
@@ -291,9 +294,11 @@ removing materialize waves effects */
 }
 
 .tech-img-big {
-  height: 50%;
+  height: auto;
   width: 50%;
 }
+
+/*MEDIA QUERIES*/
 
 
 @media (max-width: 850px) {
