@@ -309,6 +309,10 @@ removing materialize waves effects */
   border-radius: 30%;
 }
 
+.bs-knex {
+    border-radius: 100%;
+}
+
 .web {
   border-radius: 0;
 }
