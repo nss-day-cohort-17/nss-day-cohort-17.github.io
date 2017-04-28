@@ -64,12 +64,13 @@ body {
   /*display: justify-content;*/
   display: flex;
   flex-direction: column;
+  margin: 1.5%;
 }
 
 .student-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
   flex-direction: row;
   /*flex-flow: row wrap;*/
@@ -123,6 +124,12 @@ removing materialize waves effects */
 	position: absolute;
 	width: 100%;
 }
+/*.tech-img {
+
+  height: 50px;
+
+
+}*/
 
 
 
@@ -274,6 +281,22 @@ removing materialize waves effects */
   z-index: -1;
 }
 
+.technologies {
+  text-align: center;
+}
+
+.tech-img {
+  height: 80px;
+  width: auto;
+  padding-bottom: 10%;
+}
+
+.tech-img-big {
+  height: 50%;
+  width: 50%;
+}
+
+
 @media (max-width: 850px) {
    .student-container {
     padding:0;
@@ -282,7 +305,7 @@ removing materialize waves effects */
     display: flex;
     flex-direction: column;
 
-  } 
+  }
   .cohort-17-header > span {
     letter-spacing: .5px;
     font-size: 5rem;
@@ -301,7 +324,7 @@ removing materialize waves effects */
     display: flex;
     flex-direction: column;
 
-  } 
+  }
   .cohort-17-header > span {
     letter-spacing: .5px;
     font-size: 3rem;
