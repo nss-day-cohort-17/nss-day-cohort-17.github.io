@@ -286,8 +286,11 @@ removing materialize waves effects */
 
 .technologies {
   text-align: center;
+}
+
+.technologies > h1 {
   font-family: 'Titillium Web', sans-serif;
-  font-weight: : bold;
+  font-weight: bold;
 }
 
 
