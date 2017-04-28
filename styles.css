@@ -50,6 +50,54 @@ body {
   font-weight: bold;
 }
 
+/********************
+    NIGHT STYLES
+********************/
+
+.cohort-17-header-night {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: rgb(255,253,208);
+  margin-bottom: 3%;
+  text-shadow: -1px -15px -30px rgba(255,253,209, .9),
+/*  1px 17px rgba(200,209,209, .2),
+  1px 19px rgba(200,209,209, .2),
+  1px 21px rgba(200,209,209, .2),
+  1px 23px rgba(200,209,209, .2);*/
+  height: 80%;
+}
+
+.NSS-header-night {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: rgb(255,253,208);
+  padding-top: 5%;
+  text-shadow: -1px -2px -30px rgba(255,253,209, .9),
+/*  1px 3px rgba(200,209,209, .2),
+  1px 4px rgba(200,209,209, .2),
+  1px 5px rgba(200,209,209, .2),
+  1px 6px rgba(200,209,209, .2);*/
+}
+
+.cohort-17-header-night > span {
+  letter-spacing: .5px;
+  font-size: 8rem;
+  text-align: center;
+  padding-top: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+.NSS-header-night > span {
+  letter-spacing: .5px;
+  font-size: 2.4rem;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
 .nav-wrapper {
   background-color: rgba(40,40,40, .9)
 }
@@ -284,14 +332,13 @@ removing materialize waves effects */
 
 .technologies {
   text-align: center;
-  /*background-color: rgba(255, 255, 255, .7)*/
 }
 
 .tech-img {
-  height: 120px;
+  height: 150px;
   width: auto;
   padding-bottom: 10%;
-  border-radius: 100%;
+  border-radius: 20%;
   padding: 30px;
 }
 
