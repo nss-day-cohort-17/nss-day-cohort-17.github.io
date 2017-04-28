@@ -222,6 +222,16 @@ removing materialize waves effects */
 }
 
 /*********************
+ ** class photo
+ *********************/
+ .classPicture {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 0.5%;
+ }
+
+
+ /*********************
  ** Boilerplate styles
  *********************/
 
