@@ -53,6 +53,16 @@ body {
 .nav-wrapper {
   background-color: rgba(40,40,40, .9)
 }
+
+.search-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.nss_logo {
+  margin-right: 10px;
+  margin-top: 9px;
+}
 /*********************
  ** Student Cards
  *********************/
