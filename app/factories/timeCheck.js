@@ -19,6 +19,7 @@ app.factory('timeFactory', function($http) {
       // sets a default time in case api call fails
       .catch(function(err) {
         let sunDataObj = {"sunrise": "10:56:22 AM", "sunset": "12:32:36 AM"}
+        return sunDataObj
       })
     },
     // returns the user's date
