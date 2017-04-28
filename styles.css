@@ -54,7 +54,16 @@ body {
   background-color: rgba(40,40,40, .9)
 }
 
+/*.nss_logo {
+  width: 70%;
+  height: auto;
+}*/
 
+.nss_logo {
+  margin-bottom: -1%;
+  margin-right: 2px;
+  margin-left: 2px;
+}
 
 
 /*********************
