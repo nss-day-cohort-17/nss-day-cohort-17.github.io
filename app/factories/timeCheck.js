@@ -16,6 +16,9 @@ app.factory('timeFactory', function($http) {
         sunDataObj.sunset = value.data.results.sunset
         return sunDataObj
       })
+      .catch(function(err) {
+        let sunDataObj = {"sunrise": "10:56:22 AM", "sunset": "12:32:36 AM"}
+      })
     },
     // returns the user's date
     currentDate() {
