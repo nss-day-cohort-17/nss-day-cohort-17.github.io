@@ -341,12 +341,16 @@ removing materialize waves effects */
   align-items: stretch;
 }
 
+.tech-icon {
+
+}
+
 .tech-img {
   height: 150px;
   width: auto;
   padding-bottom: 10%;
-  border-radius: 100%;
   padding: 30px;
+  border-radius: 30%;
 }
 
 .web {
