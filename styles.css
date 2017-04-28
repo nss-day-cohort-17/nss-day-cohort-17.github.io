@@ -50,53 +50,6 @@ body {
   font-weight: bold;
 }
 
-/********************
-    NIGHT STYLES
-********************/
-
-.cohort-17-header-night {
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  color: rgb(255,253,208);
-  margin-bottom: 3%;
-  text-shadow: -1px -12px rgba(0,0,0, .1),
-  1px -14px rgba(255,253,203, .1),
-  1px -16px rgba(255,253,203, .1),
-  1px -18px rgba(255,253,203, .1),
-  1px -20px rgba(255,253,203, .1);
-  height: 80%;
-}
-
-.NSS-header-night {
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  color: rgb(255,253,208);
-  padding-top: 5%;
-  text-shadow: -1px -2px -30px rgba(255,253,209, .9),
-  1px 3px rgba(0,0,0, .2),
-  1px 4px rgba(0,0,0, .2),
-  1px 5px rgba(0,0,0, .2),
-  1px 6px rgba(0,0,0, .2);
-}
-
-.cohort-17-header-night > span {
-  letter-spacing: .5px;
-  font-size: 8rem;
-  text-align: center;
-  padding-top: 0;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: bold;
-}
-
-.NSS-header-night > span {
-  letter-spacing: .5px;
-  font-size: 2.4rem;
-  text-align: center;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: bold;
-}
 
 .nav-wrapper {
   background-color: rgba(40,40,40, .9)
