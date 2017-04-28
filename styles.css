@@ -153,12 +153,11 @@ removing materialize waves effects */
 
 .instructor-container {
   padding:0;
-  max-width: 30%;
-  flex-shrink: 0;
+  width: 40%;
   /*display: justify-content;*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-
+  display: flex;
+  flex-direction: column;
+  margin: 1.5%;
 }
 
 
@@ -169,10 +168,9 @@ removing materialize waves effects */
 .instructor-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
-/*  max-width: 80%;*/
-
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
   /*flex-flow: row wrap;*/
 }
 
@@ -186,8 +184,8 @@ removing materialize waves effects */
 
 
 .instructor-card {
-/*  width: 280px;
-  margin: 10px;*/
+  width: 280px;
+  margin: 10px;
 
 }
 
@@ -200,13 +198,13 @@ removing materialize waves effects */
 }
 
 .instructor-name {
-  width: 100%;
   color: orange;
-  margin-bottom: 5px
+  margin-bottom: 0px !important;
 }
 
 .instructor-title-container {
   min-height: 95px;
+  background-color: white;
 }
 
 
@@ -218,15 +216,19 @@ removing materialize waves effects */
 }
 
 .instructor-image-container {
-  max-height: 205px !important;
+  height: 275px !important;
+  overflow: hidden;
 }
+
 
 .instructor-image {
 /*  max-width: 300px;
   height: auto;*/
   margin: 0 auto;
   height: 100%;
-  width: auto;
+  width: auto !important;
+  overflow: hidden;
+
 }
 
 .instructor-bio {
@@ -346,6 +348,15 @@ removing materialize waves effects */
     flex-direction: column;
 
   }
+
+  .instructor-container {
+    padding:0;
+    width: 40%;
+    /*display: justify-content;*/
+    display: flex;
+    flex-direction: column;
+  }
+
   .cohort-17-header > span {
     letter-spacing: .5px;
     font-size: 5rem;
@@ -365,6 +376,20 @@ removing materialize waves effects */
     flex-direction: column;
 
   }
+
+  .instructor-container {
+    padding:0;
+    width: 70%;
+    /*display: justify-content;*/
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instructor-image-container {
+    height: 302px !important;
+    overflow: hidden;
+  }
+
   .cohort-17-header > span {
     letter-spacing: .5px;
     font-size: 3rem;
