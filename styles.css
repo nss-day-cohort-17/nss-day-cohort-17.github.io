@@ -286,17 +286,16 @@ removing materialize waves effects */
 
 .technologies {
   text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: : bold;
 }
+
 
 .tech-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
-}
-
-.tech-icon {
-
 }
 
 .tech-img {
