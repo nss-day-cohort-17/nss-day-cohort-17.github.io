@@ -176,6 +176,11 @@ removing materialize waves effects */
   /*flex-flow: row wrap;*/
 }
 
+.instructor-list > h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
 .instructors-all {
   display: flex;
   flex-direction: row;
