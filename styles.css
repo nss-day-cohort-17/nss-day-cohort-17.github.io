@@ -60,11 +60,11 @@ body {
   z-index: 1;
   color: rgb(255,253,208);
   margin-bottom: 3%;
-  text-shadow: -1px -15px -30px rgba(255,253,209, .9),
-/*  1px 17px rgba(200,209,209, .2),
-  1px 19px rgba(200,209,209, .2),
-  1px 21px rgba(200,209,209, .2),
-  1px 23px rgba(200,209,209, .2);*/
+  text-shadow: -1px -12px rgba(0,0,0, .1),
+  1px -14px rgba(255,253,203, .1),
+  1px -16px rgba(255,253,203, .1),
+  1px -18px rgba(255,253,203, .1),
+  1px -20px rgba(255,253,203, .1);
   height: 80%;
 }
 
@@ -75,10 +75,10 @@ body {
   color: rgb(255,253,208);
   padding-top: 5%;
   text-shadow: -1px -2px -30px rgba(255,253,209, .9),
-/*  1px 3px rgba(200,209,209, .2),
-  1px 4px rgba(200,209,209, .2),
-  1px 5px rgba(200,209,209, .2),
-  1px 6px rgba(200,209,209, .2);*/
+  1px 3px rgba(0,0,0, .2),
+  1px 4px rgba(0,0,0, .2),
+  1px 5px rgba(0,0,0, .2),
+  1px 6px rgba(0,0,0, .2);
 }
 
 .cohort-17-header-night > span {
@@ -334,11 +334,18 @@ removing materialize waves effects */
   text-align: center;
 }
 
+.tech-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
 .tech-img {
   height: 150px;
   width: auto;
   padding-bottom: 10%;
-  border-radius: 20%;
+  border-radius: 100%;
   padding: 30px;
 }
 
