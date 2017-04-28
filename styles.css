@@ -50,6 +50,7 @@ body {
   font-weight: bold;
 }
 
+
 .nav-wrapper {
   background-color: rgba(40,40,40, .9)
 }
@@ -281,20 +282,36 @@ removing materialize waves effects */
   z-index: -1;
 }
 
+/*TECHNOLOGIES*/
+
 .technologies {
   text-align: center;
 }
 
-.tech-img {
-  height: 80px;
-  width: auto;
-  padding-bottom: 10%;
+.tech-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
-.tech-img-big {
-  height: 50%;
-  width: 50%;
+.tech-icon {
+
 }
+
+.tech-img {
+  height: 150px;
+  width: auto;
+  padding-bottom: 10%;
+  padding: 30px;
+  border-radius: 30%;
+}
+
+.web {
+  border-radius: 0;
+}
+
+/*MEDIA QUERIES*/
 
 
 @media (max-width: 850px) {
