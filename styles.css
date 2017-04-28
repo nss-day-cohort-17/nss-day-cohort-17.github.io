@@ -54,6 +54,19 @@ body {
 .nav-wrapper {
   background-color: rgba(40,40,40, .9)
 }
+
+/*.nss_logo {
+  width: 70%;
+  height: auto;
+}*/
+
+.nss_logo {
+  margin-bottom: -1%;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+
 /*********************
  ** Student Cards
  *********************/
@@ -222,6 +235,16 @@ removing materialize waves effects */
 }
 
 /*********************
+ ** class photo
+ *********************/
+ .classPicture {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 0.5%;
+ }
+
+
+ /*********************
  ** Boilerplate styles
  *********************/
 
