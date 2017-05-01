@@ -5,10 +5,10 @@
 			"name" : "James West",
 			"github" : "https://github.com/j-West",
 			"linkedin" : "https://www.linkedin.com/in/j-west/",
-			"portfolio" : "",
+			"portfolio" : "http://j-west.github.io/",
 			"proimg" : "assets/img/jameswest1.jpg",
 			"sillyimg" : "assets/img/jameswest2.jpg",
-			"bio": ""
+			"bio": "Marine veteran turned coder.  Soccer enthusiast with a passion for helping.  Always looking to learn more."
 		},
 		{
 			"name" : "Peter Garrido",
@@ -23,16 +23,16 @@
 			"name" : "Billy Connolly",
 			"github" : "https://github.com/sirwilliamiv",
 			"linkedin" : "https://www.linkedin.com/in/billyconnolly/",
-			"portfolio" : "",
+			"portfolio" : "freshbeetz.party",
 			"proimg" : "assets/img/billy1.jpg",
 			"sillyimg" : "assets/img/billy2.jpg",
-			"bio": ""
+			"bio": "I am an optimistic person who enjoys the challenges and life-long learning involved in solving problems with software."
 		},
 		{
 			"name" : "Jared Fuller",
 			"github" : "https://github.com/jaredshane",
 			"linkedin" : "https://www.linkedin.com/in/jaredshane/",
-			"portfolio" : "https://jaredshane.github.io/",
+			"portfolio" : "http://www.jaredfuller.co/",
 			"proimg" : "assets/img/jared1.jpg",
 			"sillyimg" : "assets/img/jared2.jpg",
 			"bio": "History scholar and baseball addict with a passion for problem solving and recently discovered a love of all things Javascript and SQL."
@@ -44,25 +44,25 @@
 			"portfolio" : "https://mwatson615.github.io/",
 			"proimg" : "assets/img/watson1.jpg",
 			"sillyimg" : "assets/img/watson2.jpg",
-			"bio": "When I'm not coding, I can often be found hiking to waterfalls on the Cumberland Plateau, playing mandolin, or writing and performing comedy for stage and screen."
+			"bio": "Michael is a Tennessee native and graduate of MTSU and TSU with a passion for public service modernization. When not coding, he can often be found hiking to waterfalls on the Cumberland Plateau, playing mandolin, and performing stand up comedy."
 		},
 		{
 			"name" : "Ashley Irwin",
 			"github" : "https://github.com/ashleyirwin3",
 			"linkedin" : "https://www.linkedin.com/in/ashley-irwin-578699110/",
-			"portfolio" : "",
+			"portfolio" : "ashleyirwin3.github.io",
 			"proimg" : "assets/img/ashley1.jpg",
 			"sillyimg" : "assets/img/ashley2.jpg",
-			"bio": ""
+			"bio": "After a lifetime of loving literature, Ashley earned a Bachelor’s degree in English at Austin Peay State University. Her jobs and internships during school, including a web content writing internship and freelance work, introduced her to the world of software development through a writer’s eyes. After learning basic programming in her free time, she finally decided to launch her journey to becoming a software developer."
 		},
 		{
 			"name" : "Ben Conner",
 			"github" : "https://github.com/benConner",
 			"linkedin" : "https://www.linkedin.com/in/benjamin-conner",
-			"portfolio" : "",
+			"portfolio" : "benconner.github.io",
 			"proimg" : "assets/img/ben1.jpg",
 			"sillyimg" : "assets/img/ben2.jpg",
-			"bio": ""
+			"bio": "Ben Conner is a southern Illinois native who made the move to Nashville in 2014. Since then, he’s been honing his web development skills by tinkering with code in his spare time. Ben is an avid problem-solver with a real thirst for a challenge."
 		},
 		{
 			"name" : "Terrill Farmer",
@@ -71,7 +71,7 @@
 			"portfolio" : "",
 			"proimg" : "assets/img/terrill1.jpg",
 			"sillyimg" : "assets/img/terrill2.jpg",
-			"bio": ""
+			"bio": "When not pursuing his never-ending quest to learn all the things, Terrill enjoys video games, meeting new people, and figuring out how to learn all the things."
 		},
 		{
 			"name" : "Robert Tortorelli",
@@ -86,15 +86,9 @@
 			"name" : "Krishnapriya Sivasubramanian",
 			"github" : "https://github.com/priyakamesh",
 			"linkedin" : "https://www.linkedin.com/in/krishnapriya-sivasubramanian-95bb7b4a/",
-<<<<<<< HEAD
 			"portfolio" : "http://krishpriya.com/",
-			"proimg" : "./img/priya",
-			"sillyimg" : "./img/priya",
-=======
-			"portfolio" : "",
 			"proimg" : "assets/img/priya1.jpg",
 			"sillyimg" : "assets/img/priya2.jpg",
->>>>>>> ce8a8e5fe1bebf47352e4890620926dc85e897ea
 			"bio": "Junior Full-Stack Developer experience in working with MEAN stack technologies as well as SQLite and PostgreSQL Databases. Complimentary Masters education in Remote Sensing and Wireless Sensor Networks and Bachelors education in Electronics and Communication Engineering."
 		},
 		{
@@ -104,16 +98,16 @@
 			"portfolio" : "https://lukeschuyler.github.io/#/",
 			"proimg" : "assets/img/lukes1.jpg",
 			"sillyimg" : "assets/img/lukes2.jpg",
-			"bio": ""
+			"bio": "Nashville native. Just another indentured servant musician gone programmer. Lover of all things epic. Very Thankful for NSS!"
 		},
 		{
 			"name" : "Michael Tambornino",
 			"github" : "https://github.com/m-tambo",
 			"linkedin" : "https://www.linkedin.com/in/m-tambo/",
-			"portfolio" : "",
+			"portfolio" : "m-tambo.com",
 			"proimg" : "assets/img/tambo1.jpg",
 			"sillyimg" : "assets/img/tambo2.jpg",
-			"bio": ""
+			"bio": "Work hard. Don't take yourself too seriously. Get sh*t done."
 		},
 		{
 			"name" : "Lucas McLaughlin",
@@ -122,22 +116,15 @@
 			"portfolio" : "https://lucasmcl.github.io/",
 			"proimg" : "assets/img/lucas1.jpg",
 			"sillyimg" : "assets/img/lucas2.jpg",
-			"bio": ""
+			"bio": "Math nerd.  Jazz trombonist.  Ultimate frisbee enthusiast.  A lover of logic who is obsessive about writing clean, neat, and bug-free code."
 		},
 		{
 			"name" : "Jufe Brown-Tsai",
 			"github" : "https://github.com/Jufebrown",
 			"linkedin" : "https://www.linkedin.com/in/jufe-brown-tsai-3a2701126/",
 			"portfolio" : "https://jufebrown.github.io/",
-<<<<<<< HEAD
-			"proimg" : "./img/jufe1",
-			"sillyimg" : "./img/jufe2",
-=======
-
 			"proimg" : "assets/img/jufe1.jpg",
 			"sillyimg" : "assets/img/jufe2.jpg",
-
->>>>>>> ce8a8e5fe1bebf47352e4890620926dc85e897ea
 			"bio": ""
 		},
 		{
@@ -147,16 +134,16 @@
 			"portfolio" : "joellegg.com",
 			"proimg" : "assets/img/joel1.jpg",
 			"sillyimg" : "assets/img/joel2.jpg",
-			"bio": ""
+			"bio": "Joel is a: technology enthusiast, data aficionado, petroleum geologist, woodworker, and avid outdoorsman. Joel has combined technology with data to solve problems ranging from determining how oil formed millions of years ago to building an app that connects local craftsman who need/have a specific tool. His goal is to apply his programming knowledge to solve real-world problems."
 		},
 		{
 			"name" : "Luke Woodward",
 			"github" : "https://github.com/lukewalt",
 			"linkedin" : "https://www.linkedin.com/in/luke-woodward/",
-			"portfolio" : "",
+			"portfolio" : "lukewdwrd.net",
 			"proimg" : "assets/img/lukew1.jpg",
 			"sillyimg" : "assets/img/lukew2.jpg",
-			"bio": ""
+			"bio": "Luke is a solar enthusiast and dabbler of philosophical conversation. He is solution focused not problem focused. He loves the outcomes of collaborative effort!"
 		},
 		{
 			"name" : "Sorrel Brigman",
@@ -165,7 +152,7 @@
 			"portfolio" : "https://sorrelbrigman.github.io",
 			"proimg" : "assets/img/sorrel1.jpg",
 			"sillyimg" : "assets/img/sorrel2.jpg",
-			"bio": ""
+			"bio": "Sorrel Brigman, originally from Albuquerque, New Mexico, worked as an audio engineer in a number of Nashville studios before beginning her programming journey in 2016 at NSS. When she’s away from the keyboard she enjoys traveling, hiking in National Parks, and drinking tea."
 		},
 		{
 			"name" : "Jesse Waddell",
@@ -174,7 +161,7 @@
 			"portfolio" : "",
 			"proimg" : "assets/img/jesse1.jpg",
 			"sillyimg" : "assets/img/jesse2.jpg",
-			"bio": ""
+			"bio": "Jesse was born in New Orleans, Louisiana and moved to Nashville, Tennessee in 2016 to attend NSS. He loves playing music, skateboarding, learning and of course coding."
 		},
 		{
 			"name" : "Athena Perez",
@@ -182,8 +169,8 @@
 			"linkedin" : "https://www.linkedin.com/in/athena-perez-89325a104/",
 			"portfolio" : "",
 			"proimg" : "assets/img/athena.jpg",
-			"sillyimg" : "",
-			"bio": ""
+			"sillyimg" : "assets/img/athena2.jpg",
+			"bio": "Apprentice Developer at Nashville Software School. Lover of: backcountry, photography, music, kindness, coding."
 		},
 		{
 			"name" : "Westley Isbell",
@@ -192,7 +179,7 @@
 			"portfolio" : "",
 			"proimg" : "assets/img/westley1.jpg",
 			"sillyimg" : "assets/img/westley2.jpg",
-			"bio": ""
+			"bio": "Westley is a junior developer with a strong interest in implementing IoT in his personal projects.  In his free time he enjoys sailing, gardening, yoga, and strumming his guitar."
 		},
 		{
 			"name" : "James Wier",
@@ -201,7 +188,7 @@
 			"portfolio" : "",
 			"proimg" : "assets/img/wier1.jpg",
 			"sillyimg" : "",
-			"bio": ""
+			"bio": "International man of mystery."
 		},
 		{
 			"name" : "Charlie Crocker",
