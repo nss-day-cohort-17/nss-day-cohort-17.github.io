@@ -50,18 +50,15 @@
               <span class="center-align student-name card-title">{{student.name}}</span>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-              <p class="grey-text text-darken-4">Systema ablative boy shanty town fluidity systemic render-farm weathered bomb digital voodoo god meta. Grenade BASE jump bomb footage boy military-grade warehouse faded A.I. vehicle artisanal alcohol youtube long-chain hydrocarbons concrete. Euro-pop RAF katana decay concrete 8-bit savant alcohol film weathered hacker lights network drone crypto-kanji hotdog. Hacker film car silent marketing market urban carbon 8-bit motion dome-ware numinous nano-tattoo. Crypto-meta-boy receding face forwards-space physical hotdog 8-bit jeans fluidity bomb warehouse-ware stimulate. Tanto sub-orbital alcohol wonton soup neural augmented reality RAF weathered. Film carbon neural plastic narrative free-market footage industrial grade j-pop. Savant j-pop pistol-ware drone engine tanto man free-market. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.</p>
+              <span class="card-title grey-text text-darken-4">{{student.name}}<i class="material-icons right">close</i></span>
+              <p class="grey-text text-darken-4">{{student.bio}}</p>
             </div>
           </div>
           <div class="icons-container">
             <a href="{{student.linkedin}}">
               <img class="linked-in-icon left" src="img/linkedin-icon-white.png">
             </a>
-            <a href="{{student.portfolio}}">
+            <a ng-if="student.portfolio !==''"href="{{student.portfolio}}">
               <img class="website-icon" src="img/website-icon-white.png">
             </a>
             <a href="{{student.github}}">
