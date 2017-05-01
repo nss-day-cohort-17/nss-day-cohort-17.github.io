@@ -345,6 +345,22 @@ removing materialize waves effects */
   border-radius: 0;
 }
 
+/*UNDERLINE COLORS FOR EARCH STUDENT*/
+
+/* label color */
+ .input-field label {
+   color: #000;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: #000;
+ }
+ /* label underline focus color */
+ #search:focus {
+   border-bottom: 1px solid #ddd !important;
+   box-shadow: 0 1px 0 0 #ddd !important;
+ }
+
 /*MEDIA QUERIES*/
 
 
