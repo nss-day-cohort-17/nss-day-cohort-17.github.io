@@ -176,6 +176,11 @@ removing materialize waves effects */
   /*flex-flow: row wrap;*/
 }
 
+.instructor-list > h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
 .instructors-all {
   display: flex;
   flex-direction: row;
@@ -311,15 +316,17 @@ removing materialize waves effects */
   text-align: center;
 }
 
+.technologies > h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+
 .tech-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
-}
-
-.tech-icon {
-
 }
 
 .tech-img {
@@ -328,6 +335,10 @@ removing materialize waves effects */
   padding-bottom: 10%;
   padding: 30px;
   border-radius: 30%;
+}
+
+.bs-knex {
+    border-radius: 100%;
 }
 
 .web {
