@@ -50,9 +50,23 @@ body {
   font-weight: bold;
 }
 
+
 .nav-wrapper {
   background-color: rgba(40,40,40, .9)
 }
+
+/*.nss_logo {
+  width: 70%;
+  height: auto;
+}*/
+
+.nss_logo {
+  margin-bottom: -1%;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+
 /*********************
  ** Student Cards
  *********************/
@@ -64,12 +78,13 @@ body {
   /*display: justify-content;*/
   display: flex;
   flex-direction: column;
+  margin: 1.5%;
 }
 
 .student-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
   flex-direction: row;
   /*flex-flow: row wrap;*/
@@ -123,12 +138,12 @@ removing materialize waves effects */
 	position: absolute;
 	width: 100%;
 }
-.tech-img {
+/*.tech-img {
 
   height: 50px;
 
 
-}
+}*/
 
 
 
@@ -138,12 +153,11 @@ removing materialize waves effects */
 
 .instructor-container {
   padding:0;
-  max-width: 30%;
-  flex-shrink: 0;
+  width: 30%;
   /*display: justify-content;*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-
+  display: flex;
+  flex-direction: column;
+  margin: 1.5%;
 }
 
 
@@ -154,11 +168,15 @@ removing materialize waves effects */
 .instructor-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
-/*  max-width: 80%;*/
-
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
   /*flex-flow: row wrap;*/
+}
+
+.instructor-list > h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
 }
 
 .instructors-all {
@@ -171,8 +189,8 @@ removing materialize waves effects */
 
 
 .instructor-card {
-/*  width: 280px;
-  margin: 10px;*/
+  width: 280px;
+  margin: 10px;
 
 }
 
@@ -185,13 +203,13 @@ removing materialize waves effects */
 }
 
 .instructor-name {
-  width: 100%;
   color: orange;
-  margin-bottom: 5px
+  margin-bottom: 0px !important;
 }
 
 .instructor-title-container {
   min-height: 95px;
+  background-color: white;
 }
 
 
@@ -203,15 +221,19 @@ removing materialize waves effects */
 }
 
 .instructor-image-container {
-  max-height: 205px !important;
+  height: 275px !important;
+  overflow: hidden;
 }
+
 
 .instructor-image {
 /*  max-width: 300px;
   height: auto;*/
   margin: 0 auto;
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: auto !important;
+  overflow: hidden;
+
 }
 
 .instructor-bio {
@@ -220,6 +242,16 @@ removing materialize waves effects */
 }
 
 /*********************
+ ** class photo
+ *********************/
+ .classPicture {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 0.5%;
+ }
+
+
+ /*********************
  ** Boilerplate styles
  *********************/
 
@@ -280,6 +312,60 @@ removing materialize waves effects */
   z-index: -1;
 }
 
+/*TECHNOLOGIES*/
+
+.technologies {
+  text-align: center;
+}
+
+.technologies > h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+
+.tech-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.tech-img {
+  height: 150px;
+  width: auto;
+  padding-bottom: 10%;
+  padding: 30px;
+  border-radius: 30%;
+}
+
+.bs-knex {
+    border-radius: 100%;
+}
+
+.web {
+  border-radius: 0;
+}
+
+/*UNDERLINE COLORS FOR EARCH STUDENT*/
+
+/* label color */
+ .input-field label {
+   color: #000;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: #000;
+ }
+ /* label underline focus color */
+ #search:focus {
+   border-bottom: 1px solid #ddd !important;
+   box-shadow: 0 1px 0 0 #ddd !important;
+ }
+
+/*MEDIA QUERIES*/
+
+
 @media (max-width: 850px) {
    .student-container {
     padding:0;
@@ -288,7 +374,16 @@ removing materialize waves effects */
     display: flex;
     flex-direction: column;
 
-  } 
+  }
+
+  .instructor-container {
+    padding:0;
+    width: 40%;
+    /*display: justify-content;*/
+    display: flex;
+    flex-direction: column;
+  }
+
   .cohort-17-header > span {
     letter-spacing: .5px;
     font-size: 5rem;
@@ -307,7 +402,21 @@ removing materialize waves effects */
     display: flex;
     flex-direction: column;
 
-  } 
+  }
+
+  .instructor-container {
+    padding:0;
+    width: 70%;
+    /*display: justify-content;*/
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instructor-image-container {
+    height: 302px !important;
+    overflow: hidden;
+  }
+
   .cohort-17-header > span {
     letter-spacing: .5px;
     font-size: 3rem;

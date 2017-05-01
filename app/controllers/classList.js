@@ -1,4 +1,4 @@
-app.controller('classListCtrl', function($scope, studentFactory, timeFactory){
+app.controller('classListCtrl', function($scope, studentFactory, timeFactory, instructorFactory){
 
   // makes http GET call to find sunrise and sunset time
   timeFactory.getSunData()
@@ -22,5 +22,12 @@ app.controller('classListCtrl', function($scope, studentFactory, timeFactory){
   .then(students  => {
     let studentArray = studentFactory.shuffleStudents(students)
     $scope.students = studentArray
+  });
+
+
+  instructorFactory.getInstructors()
+  .then(instructors => {
+    console.log(instructors)
+    $scope.instructors = instructors;
   })
 })
