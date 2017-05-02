@@ -37,4 +37,4 @@ Sincerely,
 
 ### [Cohort 17](https://github.com/orgs/nss-day-cohort-17)
 
-<img align="center" src="nss-day-cohort-17.github.io/assets/img/group1.jpg" />
+<img align="center" src="assets/img/group1.jpg" />
