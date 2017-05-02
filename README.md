@@ -18,7 +18,7 @@
 [Billy Connoly](https://github.com/sirwilliamiv)  
 [Matt Latham](https://github.com/lathammatt)  
 [Krishnapriya Priyakamesh](https://github.com/priyakamesh)  
-[Michael Watson](https://github.com/mwatson615)
+[Michael Watson](https://github.com/mwatson615)  
 [Luke Woodward](https://github.com/lukewalt) (Design)  
 [Athena Perez](https://github.com/athenaperez) (Design)
 
