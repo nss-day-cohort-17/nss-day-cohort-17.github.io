@@ -1,27 +1,13 @@
-<!-- nav bar -->
-<!--
-<nav>
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo left">NSS Logo</a>
-    <form>
-      <div class="input-field">
-        <input ng-model="studentSearch" id="search" placeholder="Find Student" type="search" required>
-        <label class="label-icon" for="search"><i class="material-icons searchBarLogo">search</i></label>
-        <i class="material-icons">close</i>
-      </div>
-    </form>
-  </div>
-</nav> -->
 
 <div class="main-body" style="background-color: {{backgroundColor}};">
-  <img class="background-img" src={{backgroundImg}} alt="gradient-sunburst">
+  <img class="background-img" src={{backgroundImg}}>
   <!-- <div class="row">  -->
-    <div class="NSS-header">
+    <div ng-class="{NSS_header_night: backgroundImg === '/img/c17_backdrop_night.png'}" class="NSS-header">
       <!-- <span>Nashville</span><img class="nss_logo" src="img/nss_logo.png" width="40" height="40"> <span>Software School</span> -->
       <img class="nss_logo" src="img/nss_logo_edit_thicker.png" width="40" height="40"><span>Nashville</span> <span>Software School</span>
       <!-- <img class="nss_logo"src="img/NSS-logo-horizontal-large.png"> -->
     </div>
-    <div class="cohort-17-header">
+    <div ng-class="{cohort_17_header_night: backgroundImg === '/img/c17_backdrop_night.png'}" class="cohort-17-header">
       <span>COHORT 17</span>
     </div>
   <!-- </div> -->
@@ -70,7 +56,7 @@
 
 
 
-        <h1 class="center-align">Instructors</h1>
+      <h1 class="center-align instructor-header">Instructors</h1>
       <div class="row instructor-list">
         <div ng-repeat="instructor in instructors" class="instructor-container">
           <div class="card">
