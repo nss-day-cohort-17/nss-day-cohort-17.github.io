@@ -1,5 +1,3 @@
--Coming soon!!!!!!!!!!!!!
-
 ## [NSS](http://nashvillesoftwareschool.com/) Cohort D17
 #### Instructors -
 [Scott Humphries](https://github.com/sscotth) (Front-End)
@@ -26,3 +24,5 @@ We also learned the key features and capabilities of Javascript and the MEAN sta
 Sincerely,
 
 ### [Cohort 17](https://github.com/orgs/nss-day-cohort-17)
+
+<img align="center" src="nss-day-cohort-17.github.io/assets/img/group1.jpg" />
