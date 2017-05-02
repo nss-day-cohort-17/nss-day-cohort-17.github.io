@@ -1,4 +1,4 @@
-## [NSS](http://nashvillesoftwareschool.com/) Cohort D17
+## [NSS](http://nashvillesoftwareschool.com/) Cohort 17
 #### Instructors -
 [Scott Humphries](https://github.com/sscotth) (Front-End)
 [Joe Shephard](https://github.com/JoeShep) (Back-End)
@@ -10,8 +10,8 @@
 [Callan Morrison](https://github.com/morecallan)
 [Jack Mocherman](https://github.com/jackmoch)
 
-#### Cohort 14 Website Contributors -  
-[Sorrel Brigman](https://github.com/SorrelBrigman) 
+#### Cohort 17 Website Contributors -  
+[Sorrel Brigman](https://github.com/SorrelBrigman)  
 [Jufe Brown-Tsai](https://github.com/Jufebrown)  
 [Lucas McLaughlin](https://github.com/LucasMcL)  
 [Luke Schuyler](https://github.com/lukeschuyler)  
@@ -19,7 +19,7 @@
 [Matt Latham](https://github.com/lathammatt)  
 [Krishnapriya Priyakamesh](https://github.com/priyakamesh)  
 [Michael Watson](https://github.com/mwatson615)
-[Luke Woodward](https://github.com/lukewalt) (Design)
+[Luke Woodward](https://github.com/lukewalt) (Design)  
 [Athena Perez](https://github.com/athenaperez) (Design)
 
 ### What We Learned
