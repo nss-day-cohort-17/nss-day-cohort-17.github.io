@@ -3,7 +3,6 @@ app.factory('instructorFactory', function($http){
     getInstructors() {
       return $http.get('/assets/instructors.json')
       .then(res => {
-        console.log("factory")
         return res.data.instructors
       })
     }

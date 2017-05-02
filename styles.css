@@ -50,6 +50,54 @@ body {
   font-weight: bold;
 }
 
+/*Night header styles*/
+
+/*#cfff00*/ 
+/*or*/
+/*#ccc*/
+
+.cohort_17_header_night {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: rgb(50,50,50);
+  margin-bottom: 3%;
+  text-shadow: -1px -1px 0 #ccc,
+    1px -1px 0 #ccc,
+    -1px 1px 0 #ccc,
+    1px 1px 0 #ccc; 
+  height: 80%;
+}
+
+.NSS_header_night {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: rgb(50,50,50);
+  padding-top: 5%;
+  text-shadow:     -1px -1px 0 #ccc,
+    1px -1px 0 #ccc,
+    -1px 1px 0 #ccc,
+    1px 1px 0 #ccc; 
+}
+
+.cohort_17_header_night > span {
+  letter-spacing: .5px;
+  font-size: 8rem;
+  text-align: center;
+  padding-top: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+.NSS_header_night > span {
+  letter-spacing: .5px;
+  font-size: 2.4rem;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
 
 .nav-wrapper {
   background-color: rgba(40,40,40, .9)
@@ -174,7 +222,7 @@ removing materialize waves effects */
   /*flex-flow: row wrap;*/
 }
 
-.instructor-list > h1 {
+.instructor-header {
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
 }
@@ -322,7 +370,6 @@ removing materialize waves effects */
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
 }
-
 
 .tech-row {
   display: flex;
