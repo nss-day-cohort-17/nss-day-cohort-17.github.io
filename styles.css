@@ -99,11 +99,6 @@ body {
   background-color: rgba(40,40,40, .9)
 }
 
-/*.nss_logo {
-  width: 70%;
-  height: auto;
-}*/
-
 .nss_logo {
   margin-bottom: -1%;
   margin-right: 2px;
@@ -182,14 +177,6 @@ removing materialize waves effects */
 	position: absolute;
 	width: 100%;
 }
-/*.tech-img {
-
-  height: 50px;
-
-
-}*/
-
-
 
 /*********************
  ** Instructor Cards
@@ -198,7 +185,6 @@ removing materialize waves effects */
 .instructor-container {
   padding:0;
   width: 30%;
-  /*display: justify-content;*/
   display: flex;
   flex-direction: column;
   margin: 1.5%;
@@ -215,7 +201,6 @@ removing materialize waves effects */
   justify-content: center;
   align-items: stretch;
   flex-direction: row;
-  /*flex-flow: row wrap;*/
 }
 
 .instructor-header {
@@ -294,26 +279,7 @@ removing materialize waves effects */
   border-radius: 0.5%;
  }
 
-
- /*********************
- ** Boilerplate styles
- *********************/
-
-/*.mainContainer {
-  position: absolute;
-  z-index: -2;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 0px;
-  margin-bottom: 0;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#db2b2b+0,ffd749+100 */
-  /*background: #db2b2b; /* Old browsers */*/
-  /*background: -moz-radial-gradient(center, ellipse cover, #db2b2b 0%, #ffd749 100%); /* FF3.6-15 */*/
-  /*background: -webkit-radial-gradient(center, ellipse cover, #db2b2b 0%,#ffd749 100%); /* Chrome10-25,Safari5.1-6 */*/
-  /*background: radial-gradient(ellipse at center, #db2b2b 0%,#ffd749 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
-  /*}*/
+/***********Searchbar/Skyline***********/
 
 .searchBarLogo {
   padding-left: 5em;
@@ -356,7 +322,7 @@ removing materialize waves effects */
   z-index: -1;
 }
 
-/*TECHNOLOGIES*/
+/*************TECHNOLOGIES*************/
 
 .technologies {
   text-align: center;
