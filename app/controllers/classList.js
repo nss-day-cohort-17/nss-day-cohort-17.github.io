@@ -35,7 +35,7 @@ app.controller('classListCtrl', function($scope, studentFactory, timeFactory, in
     } else if (typeof console.clear !== 'undefined') {
         console.API = console;
     }
-    
+
     console.API.clear();
   }, 200)
 
