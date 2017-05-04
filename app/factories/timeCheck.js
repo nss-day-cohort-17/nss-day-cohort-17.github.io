@@ -94,10 +94,10 @@ app.factory('timeFactory', function($http) {
         backgroundCol: ""
       }
       if(dayOrNight === 'day') {
-        timeSettingsObj.backgroundImg = '/img/c17_backdrop.svg'
+        timeSettingsObj.backgroundImg = '/assets/logos/c17_backdrop.svg'
         timeSettingsObj.backgroundCol = '#ffcc00'
       } else {
-        timeSettingsObj.backgroundImg = '/img/c17_backdrop_night.png'
+        timeSettingsObj.backgroundImg = '/assets/logos/c17_backdrop_night.png'
         timeSettingsObj.backgroundCol = '#336699'
       }
       return timeSettingsObj
