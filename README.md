@@ -1,4 +1,4 @@
-## [NSS](http://nashvillesoftwareschool.com/) Cohort 17
+## [NSS](http://nashvillesoftwareschool.com/) [Cohort 17](https://nss-day-cohort-17.github.io/#!/)
 #### Instructors -
 [Scott Humphries](https://github.com/sscotth) (Front-End)  
 [Joe Shephard](https://github.com/JoeShep) (Back-End)
