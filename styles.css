@@ -61,7 +61,7 @@ body {
   text-shadow: -1px -1px 0 #ccc,
     1px -1px 0 #ccc,
     -1px 1px 0 #ccc,
-    1px 1px 0 #ccc; 
+    1px 1px 0 #ccc;
   height: 80%;
 }
 
@@ -74,7 +74,7 @@ body {
   text-shadow:     -1px -1px 0 #ccc,
     1px -1px 0 #ccc,
     -1px 1px 0 #ccc,
-    1px 1px 0 #ccc; 
+    1px 1px 0 #ccc;
 }
 
 .cohort_17_header_night > span {
@@ -355,18 +355,32 @@ removing materialize waves effects */
 /*UNDERLINE COLORS FOR EARCH STUDENT*/
 
 /* label color */
- .input-field label {
-   color: #000;
- }
- /* label focus color */
- .input-field input[type=text]:focus + label {
-   color: #000;
- }
- /* label underline focus color */
- #search:focus {
-   border-bottom: 1px solid #ddd !important;
-   box-shadow: 0 1px 0 0 #ddd !important;
- }
+.input-field label {
+ color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+ color: #000;
+}
+/* label underline focus color */
+#search:focus {
+ border-bottom: 1px solid #ddd !important;
+ box-shadow: 0 1px 0 0 #ddd !important;
+}
+
+.underground__container {
+  max-width: 90%;
+  padding-top: 0px;
+  margin-top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.underground__container img {
+  max-width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+}
 
 /*MEDIA QUERIES*/
 
