@@ -5,10 +5,10 @@
 
 
 #### Advisors -
-[Caitlin Stein](https://github.com/C-Stein)
-[Dominic Serrano](https://github.com/DominicSerranoC14)
-[Callan Morrison](https://github.com/morecallan)
-[Jack Mocherman](https://github.com/jackmoch)
+[Caitlin Stein](https://github.com/C-Stein)  
+[Dominic Serrano](https://github.com/DominicSerranoC14)  
+[Callan Morrison](https://github.com/morecallan)  
+[Jack Mocherman](https://github.com/jackmoch)  
 
 #### Cohort 17 Website Contributors -  
 [Sorrel Brigman](https://github.com/SorrelBrigman)  

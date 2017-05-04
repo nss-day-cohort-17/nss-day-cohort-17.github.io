@@ -1,23 +1,17 @@
 
 <div class="main-body" style="background-color: {{backgroundColor}};">
   <img class="background-img" src={{backgroundImg}}>
-  <!-- <div class="row">  -->
-    <div ng-class="{NSS_header_night: backgroundImg === '/img/c17_backdrop_night.png'}" class="NSS-header">
-      <!-- <span>Nashville</span><img class="nss_logo" src="img/nss_logo.png" width="40" height="40"> <span>Software School</span> -->
-      <img class="nss_logo" src="img/nss_logo_edit_thicker.png" width="40" height="40"><span>Nashville</span> <span>Software School</span>
-      <!-- <img class="nss_logo"src="img/NSS-logo-horizontal-large.png"> -->
+    <div ng-class="{NSS_header_night: backgroundImg === '/assets/logos/c17_backdrop_night.png'}" class="NSS-header">
+      <img class="nss_logo" src="/assets/logos/nss_logo_edit_thicker.png" width="40" height="40"><span>Nashville</span> <span>Software School</span>
     </div>
-    <div ng-class="{cohort_17_header_night: backgroundImg === '/img/c17_backdrop_night.png'}" class="cohort-17-header">
+    <div ng-class="{cohort_17_header_night: backgroundImg === '/assets/logos/c17_backdrop_night.png'}" class="cohort-17-header">
       <span>COHORT 17</span>
     </div>
-  <!-- </div> -->
 
   <div class="student-list-div-wrapper">
     <div class="skyline skyline__container">
-      <img src="assets/images/skyline.png" alt="nashville skyline">
+      <img src="assets/logos/skyline.png" alt="nashville skyline">
     </div>
-    <!-- <div class="gray"> -->
-      <!-- <div class="middleContainer container grey darken-4"> -->
 
     <div class="gray">
       <div class="row search-container">
@@ -42,13 +36,13 @@
           </div>
           <div class="icons-container">
             <a href="{{student.linkedin}}">
-              <img class="linked-in-icon left" src="img/linkedin-icon-white.png">
+              <img class="linked-in-icon left" src="assets/logos/linkedin-icon-white.png">
             </a>
             <a ng-if="student.portfolio !==''"href="{{student.portfolio}}">
-              <img class="website-icon" src="img/website-icon-white.png">
+              <img class="website-icon" src="assets/logos/website-icon-white.png">
             </a>
             <a href="{{student.github}}">
-              <img class="github-icon right" src="img/github-icon-white.png">
+              <img class="github-icon right" src="assets/logos/github-icon-white.png">
             </a>
           </div>
         </div> <!-- end .student-container -->
@@ -88,94 +82,94 @@
           <div id="tech" class='technologies--content'>
             <div class="tech-row row">
               <div class="tech-icon">
-                <img class="tech-img" src="../img/technologies/Javascript.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="JavaScript" />
+                <img class="tech-img" src="../assets/technologies/Javascript.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="JavaScript" />
               </div>
               <div class="tech-icon">
-                <img tooltips class="tech-img node" src="../img/technologies/Angular.png"  tooltip-side="top" tooltip-show-trigger='mouseover' tooltip-template="AngularJS" />
+                <img tooltips class="tech-img node" src="../assets/technologies/Angular.png"  tooltip-side="top" tooltip-show-trigger='mouseover' tooltip-template="AngularJS" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="../img/technologies/Bootstrap.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Bootstrap" />
+                <img class="tech-img" src="../assets/technologies/Bootstrap.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Bootstrap" />
               </div>
               <div class="tech-icon">
-                <img class="web tech-img" src="/img/technologies/HTML5.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="HTML5" />
+                <img class="web tech-img" src="/assets/technologies/HTML5.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="HTML5" />
               </div>
               <div class="tech-icon">
-                <img class="web tech-img" src="../img/technologies/CSS.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="CSS3" />
+                <img class="web tech-img" src="../assets/technologies/CSS.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="CSS3" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Firebase.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Firebase" />
+                <img class="tech-img" src="/assets/technologies/Firebase.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Firebase" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Git.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Git" />
+                <img class="tech-img" src="/assets/technologies/Git.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Git" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Github.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="GitHub" />
+                <img class="tech-img" src="/assets/technologies/Github.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="GitHub" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Materialize.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Materialize" />
+                <img class="tech-img" src="/assets/technologies/Materialize.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Materialize" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Moqups.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="moqups" />
+                <img class="tech-img" src="/assets/technologies/Moqups.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="moqups" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Node.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Nodejs" />
+                <img class="tech-img" src="/assets/technologies/Node.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Nodejs" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/NPM.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="npm" />
+                <img class="tech-img" src="/assets/technologies/NPM.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="npm" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Postgres.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="postgres" />
+                <img class="tech-img" src="/assets/technologies/Postgres.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="postgres" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Sass.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Sass" />
+                <img class="tech-img" src="/assets/technologies/Sass.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Sass" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="../img/technologies/DrawIO.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="DrawIO" />
+                <img class="tech-img" src="../assets/technologies/DrawIO.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="DrawIO" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Trello.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Trello" />
+                <img class="tech-img" src="/assets/technologies/Trello.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Trello" />
               </div>
              <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/SQLite.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="SQLite" />
+                <img class="tech-img" src="/assets/technologies/SQLite.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="SQLite" />
               </div>
              <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Pug.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Pug" />
+                <img class="tech-img" src="/assets/technologies/Pug.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Pug" />
               </div>
              <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Passport.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Passport" />
+                <img class="tech-img" src="/assets/technologies/Passport.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Passport" />
               </div>
              <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Mongo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Mongo" />
+                <img class="tech-img" src="/assets/technologies/Mongo.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Mongo" />
               </div>
              <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Mongoose.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Mongoose" />
+                <img class="tech-img" src="/assets/technologies/Mongoose.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Mongoose" />
               </div>
              <div class="tech-icon">
-                <img class="bs-knex tech-img" src="/img/technologies/KnexJS.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="KnexJS" />
+                <img class="bs-knex tech-img" src="/assets/technologies/KnexJS.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="KnexJS" />
               </div>
              <div class="tech-icon">
-                <img class="bs-knex tech-img" src="/img/technologies/BookshelfJS.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="BookshelfJS" />
+                <img class="bs-knex tech-img" src="/assets/technologies/BookshelfJS.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="BookshelfJS" />
               </div>
              <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Chai.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Chai" />
+                <img class="tech-img" src="/assets/technologies/Chai.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Chai" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Mocha.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Mocha" />
+                <img class="tech-img" src="/assets/technologies/Mocha.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Mocha" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Express.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Express" />
+                <img class="tech-img" src="/assets/technologies/Express.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Express" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Heroku.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Heroku" />
+                <img class="tech-img" src="/assets/technologies/Heroku.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Heroku" />
               </div>
               <div class="tech-icon">
-                <img class="tech-img" src="/img/technologies/Bower.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Bower" />
+                <img class="tech-img" src="/assets/technologies/Bower.png" tooltip-side="top" tooltip-show-trigger='mouseover' tooltips tooltip-template="Bower" />
               </div>
             </div>
           </div>
         </div>
         <div class="center-align">
-          <img class="center-align classPicture " src="assets/img/group1.jpg">
+          <img class="center-align classPicture " src="assets/studentPics/group1.jpg">
         </div>
       </div>
     </div> <!-- end gray -->
