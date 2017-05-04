@@ -6,7 +6,7 @@ app.factory('timeFactory', function($http) {
     // returns an object with sunrise, sunset, and some other data for nashville today
     getSunData() {
       // sets url for get request to https://sunrise-sunset.org/api
-      const sunriseSunsetOrgUrl = 'http:' + '//' + 'api.sunrise-sunset.org/json?lat=36.1627&lng=-86.7816&date=today'
+      const sunriseSunsetOrgUrl = 'https:' + '//' + 'api.sunrise-sunset.org/json?lat=36.1627&lng=-86.7816&date=today'
       // runs the GET
       return $http.get(sunriseSunsetOrgUrl)
       .then(function(value) {
