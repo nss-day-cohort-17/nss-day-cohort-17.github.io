@@ -28,7 +28,8 @@ app.factory('timeFactory', function($http) {
     },
     // returns user's time zone offset in hours
     timeZoneOffsetInHours() {
-      return this.currentDate().getTimezoneOffset()/60
+      let timeZoneOffsetHours = this.currentDate().getTimezoneOffset()/60
+      return timeZoneOffsetHours
     },
     // returns the current hour in nashville (24 hour clock)
     currentHourInNashville() {
@@ -57,7 +58,7 @@ app.factory('timeFactory', function($http) {
     },
     // handles negative numbers resulting from subtracting time zone offset from 12 hour clock
     handleNeg(hour) {
-      if(hour <= 0) {
+      if(hour < 0) {
         return hour + 12
       } else {
         return hour
@@ -68,9 +69,7 @@ app.factory('timeFactory', function($http) {
       // gets current time in nashville (12 hour clock)
       let currentNashHour12 = this.currentHourInNashville() - 12
       // handles negative numbers
-      if (currentNashHour12 <= 0) {
-        currentNashHour12 = currentNashHour12 + 12
-      }
+      currentNashHour12 = this.handleNeg(currentNashHour12)
       // if it's morning it will look to see if current time in nashville is after sunrise hour and set to day otherwise set to night
       if(this.isItAM()) {
         if(currentNashHour12 >= sunHour) {
