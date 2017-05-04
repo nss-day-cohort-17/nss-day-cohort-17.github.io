@@ -23,7 +23,7 @@
 			"name" : "Billy Connolly",
 			"github" : "https://github.com/sirwilliamiv",
 			"linkedin" : "https://www.linkedin.com/in/billyconnolly/",
-			"portfolio" : "freshbeetz.party",
+			"portfolio" : "http://freshbeetz.party",
 			"proimg" : "assets/studentPics/billy1.jpg",
 			"sillyimg" : "assets/studentPics/billy2.jpg",
 			"bio": "I am an optimistic person who enjoys the challenges and life-long learning involved in solving problems with software."
@@ -50,7 +50,7 @@
 			"name" : "Ashley Irwin",
 			"github" : "https://github.com/ashleyirwin3",
 			"linkedin" : "https://www.linkedin.com/in/ashley-irwin-578699110/",
-			"portfolio" : "ashleyirwin3.github.io",
+			"portfolio" : "http://ashleyirwin3.github.io",
 			"proimg" : "assets/studentPics/ashley1.jpg",
 			"sillyimg" : "assets/studentPics/ashley2.jpg",
 			"bio": "After a lifetime of loving literature, Ashley earned a Bachelor’s degree in English at Austin Peay State University. Her jobs and internships during school, including a web content writing internship and freelance work, introduced her to the world of software development through a writer’s eyes. After learning basic programming in her free time, she finally decided to launch her journey to becoming a software developer."
@@ -59,7 +59,7 @@
 			"name" : "Ben Conner",
 			"github" : "https://github.com/benConner",
 			"linkedin" : "https://www.linkedin.com/in/benjamin-conner",
-			"portfolio" : "benconner.github.io",
+			"portfolio" : "http://benconner.github.io",
 			"proimg" : "assets/studentPics/ben1.jpg",
 			"sillyimg" : "assets/studentPics/ben2.jpg",
 			"bio": "Ben Conner is a southern Illinois native who made the move to Nashville in 2014. Since then, he’s been honing his web development skills by tinkering with code in his spare time. Ben is an avid problem-solver with a real thirst for a challenge."
@@ -95,7 +95,7 @@
 			"name" : "Luke Schuyler",
 			"github" : "https://github.com/lukeschuyler",
 			"linkedin" : "https://www.linkedin.com/in/luke-schuyler-55974388/",
-			"portfolio" : "https://lukeschuyler.github.io/#/",
+			"portfolio" : "https://lukeschuyler.com/",
 			"proimg" : "assets/studentPics/lukes1.jpg",
 			"sillyimg" : "assets/studentPics/lukes2.jpg",
 			"bio": "Nashville native. Just another indentured servant musician gone programmer. Lover of all things epic. Very Thankful for NSS!"
@@ -104,7 +104,7 @@
 			"name" : "Michael Tambornino",
 			"github" : "https://github.com/m-tambo",
 			"linkedin" : "https://www.linkedin.com/in/m-tambo/",
-			"portfolio" : "m-tambo.com",
+			"portfolio" : "http://m-tambo.com",
 			"proimg" : "assets/studentPics/tambo1.jpg",
 			"sillyimg" : "assets/studentPics/tambo2.jpg",
 			"bio": "Work hard. Don't take yourself too seriously. Get sh*t done."
@@ -131,7 +131,7 @@
 			"name" : "Joel Legg",
 			"github" : "github.com/joellegg",
 			"linkedin" : "linkedin.com/in/joellegg",
-			"portfolio" : "joellegg.com",
+			"portfolio" : "http://joellegg.com",
 			"proimg" : "assets/studentPics/joel1.jpg",
 			"sillyimg" : "assets/studentPics/joel2.jpg",
 			"bio": "Joel is a: technology enthusiast, data aficionado, petroleum geologist, woodworker, and avid outdoorsman. Joel has combined technology with data to solve problems ranging from determining how oil formed millions of years ago to building an app that connects local craftsman who need/have a specific tool. His goal is to apply his programming knowledge to solve real-world problems."
@@ -140,7 +140,7 @@
 			"name" : "Luke Woodward",
 			"github" : "https://github.com/lukewalt",
 			"linkedin" : "https://www.linkedin.com/in/luke-woodward/",
-			"portfolio" : "lukewdwrd.net",
+			"portfolio" : "http://lukewdwrd.net",
 			"proimg" : "assets/studentPics/lukew1.jpg",
 			"sillyimg" : "assets/studentPics/lukew2.jpg",
 			"bio": "Luke is a solar enthusiast and dabbler of philosophical conversation. He is solution focused not problem focused. He loves the outcomes of collaborative effort!"
