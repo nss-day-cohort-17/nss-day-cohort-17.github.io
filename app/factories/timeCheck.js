@@ -6,7 +6,7 @@ app.factory('timeFactory', function($http) {
     // returns an object with sunrise, sunset, and some other data for nashville today
     getSunData() {
       // sets url for get request to https://sunrise-sunset.org/api
-      const sunriseSunsetOrgUrl = 'http:' + '//' + 'api.sunrise-sunset.org/json?lat=36.1627&lng=-86.7816&date=today'
+      const sunriseSunsetOrgUrl = 'https:' + '//' + 'api.sunrise-sunset.org/json?lat=36.1627&lng=-86.7816&date=today'
       // runs the GET
       return $http.get(sunriseSunsetOrgUrl)
       .then(function(value) {
@@ -28,7 +28,8 @@ app.factory('timeFactory', function($http) {
     },
     // returns user's time zone offset in hours
     timeZoneOffsetInHours() {
-      return this.currentDate().getTimezoneOffset()/60
+      let timeZoneOffsetHours = this.currentDate().getTimezoneOffset()/60
+      return timeZoneOffsetHours
     },
     // returns the current hour in nashville (24 hour clock)
     currentHourInNashville() {
@@ -57,7 +58,7 @@ app.factory('timeFactory', function($http) {
     },
     // handles negative numbers resulting from subtracting time zone offset from 12 hour clock
     handleNeg(hour) {
-      if(hour <= 0) {
+      if(hour < 0) {
         return hour + 12
       } else {
         return hour
@@ -68,9 +69,7 @@ app.factory('timeFactory', function($http) {
       // gets current time in nashville (12 hour clock)
       let currentNashHour12 = this.currentHourInNashville() - 12
       // handles negative numbers
-      if (currentNashHour12 <= 0) {
-        currentNashHour12 = currentNashHour12 + 12
-      }
+      currentNashHour12 = this.handleNeg(currentNashHour12)
       // if it's morning it will look to see if current time in nashville is after sunrise hour and set to day otherwise set to night
       if(this.isItAM()) {
         if(currentNashHour12 >= sunHour) {
