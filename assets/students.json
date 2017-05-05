@@ -107,7 +107,7 @@
 			"portfolio" : "http://m-tambo.com",
 			"proimg" : "assets/studentPics/tambo1.jpg",
 			"sillyimg" : "assets/studentPics/tambo2.jpg",
-			"bio": "Work hard. Don't take yourself too seriously. Get sh*t done."
+			"bio": "Work hard. \nDon't take yourself too seriously. \nGet sh*t done."
 		},
 		{
 			"name" : "Lucas McLaughlin",
@@ -152,7 +152,7 @@
 			"portfolio" : "https://sorrelbrigman.github.io",
 			"proimg" : "assets/studentPics/sorrel1.jpg",
 			"sillyimg" : "assets/studentPics/sorrel2.jpg",
-			"bio": "Sorrel Brigman, originally from Albuquerque, New Mexico, worked as an audio engineer in a number of Nashville studios before beginning her programming journey in 2016 at NSS. When she’s away from the keyboard she enjoys traveling, hiking in National Parks, and drinking tea."
+			"bio": "Sorrel Brigman, originally from Albuquerque, New Mexico, worked as an audio engineer in a number of Nashville studios before beginning her programming journey in 2016 at NSS. When she’s away from the keyboard she enjoys traveling, hiking in National Parks, drinking tea, and trying to find the best milkshake in Nashville."
 		},
 		{
 			"name" : "Jesse Waddell",
@@ -176,7 +176,7 @@
 			"name" : "Westley Isbell",
 			"github" : "https://github.com/Wisbell",
 			"linkedin" : "https://www.linkedin.com/in/westley-isbell/",
-			"portfolio" : "",
+			"portfolio" : "https://wisbell.github.io/",
 			"proimg" : "assets/studentPics/westley1.jpg",
 			"sillyimg" : "assets/studentPics/westley2.jpg",
 			"bio": "Westley is a junior developer with a strong interest in implementing IoT in his personal projects.  In his free time he enjoys sailing, gardening, yoga, and strumming his guitar."
